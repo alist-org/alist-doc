@@ -24,12 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Xhofe/alist-doc/edit/main/website/",
+          editUrl: "https://github.com/Xhofe/alist-doc/edit/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/Xhofe/alist-doc/edit/main/website/blog/",
+          editUrl: "https://github.com/Xhofe/alist-doc/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
