@@ -4,14 +4,14 @@ sidebar_position: 3
 
 # 从源码运行
 
-:::tip
+:::danger
 
 此步骤只是为需要自行修改源码的用户准备，不了解的话请跳过。
 
 :::
 
 ### 环境准备
-首先需要有nodejs、yarn、golang>1.17的环境
+首先需要有`git`、`nodejs`、`yarn`、`golang>1.17`的环境
 
 ### 构建前端
 clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn&& yarn build`，得到dist目录下的目标文件

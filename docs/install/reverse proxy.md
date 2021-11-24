@@ -7,13 +7,13 @@ sidebar_position: 4
 ### nginx
 在网站的配置文件的server字段中加入
 ```nginx
-    location / {
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header Host $http_host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_redirect off;
-        proxy_pass http://127.0.0.1:5244;
-    }
+location / {
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_redirect off;
+    proxy_pass http://127.0.0.1:5244;
+}
 ```
 
 ### Apache

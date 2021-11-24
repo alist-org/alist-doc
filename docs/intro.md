@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Alist 简介
+# 简介
 
 ### 是什么？
 

@@ -7,6 +7,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Alist Document",
+  scripts: [
+    {
+      src: "https://hm.baidu.com/hm.js?0d5809a3ff8af1329f415ca8088cc2a0",
+      async: true,
+    },
+  ],
   tagline: "A file list program that supports multiple storage.",
   url: "https://nn.ci",
   baseUrl: "/",
