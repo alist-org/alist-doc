@@ -12,7 +12,8 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://store.heytapimage.com/cdo-portal/feedback/202110/30/d43c41c5d257c9bc36366e310374fb19.png",
+  favicon:
+    "https://store.heytapimage.com/cdo-portal/feedback/202110/30/d43c41c5d257c9bc36366e310374fb19.png",
   organizationName: "Xhofe", // Usually your GitHub org/user name.
   projectName: "alist", // Usually your repo name.
 
@@ -52,13 +53,13 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "教程",
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
           {
             href: "https://github.com/Xhofe/alist",
             label: "GitHub",
@@ -113,10 +114,10 @@ const config = {
       },
     }),
 
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en", "zh-CN"],
-  // },
+  i18n: {
+    defaultLocale: "zh-CN",
+    locales: ["zh-CN", "en"],
+  },
 };
 
 module.exports = config;
