@@ -15,7 +15,7 @@ sidebar_position: 3
 ### 排序与排序方向
 自行选择，或者不选
 ### 根目录file_id
-打开阿里云盘官网，点进去你要设置的文件夹时url后面的一串，如https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940就是5fe01e1830601baf774e4827a9fb8fb2b5bf7940
+打开阿里云盘官网，点进去你要设置的文件夹时url后面的一串，如https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940 就是`5fe01e1830601baf774e4827a9fb8fb2b5bf7940`
 ![file_id](https://store.heytapimage.com/cdo-portal/feedback/202111/24/e69c2d064d6794fc008c7ba1588707da.png)
 
 ### 限制
