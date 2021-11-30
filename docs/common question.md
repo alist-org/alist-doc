@@ -21,6 +21,8 @@ sidebar_position: 6
 程序缓存一小时自动失效，后台右上角可手动清除缓存。
 ### 如何修改监听端口
 程序所在目录的data文件夹下的配置文件：`config.json`，修改其中的port值即可。
+### webdav浏览器打开显示Internal Server Error？
+webdav是给浏览器用的吗？
 :::tip
 如果阅读文档之后，还未解决你的问题，请[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
 :::
