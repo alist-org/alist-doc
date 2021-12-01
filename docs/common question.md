@@ -23,6 +23,8 @@ sidebar_position: 6
 程序所在目录的data文件夹下的配置文件：`config.json`，修改其中的port值即可。
 ### webdav浏览器打开显示Internal Server Error？
 webdav是给浏览器用的吗？
+### 如何更新？
+除了在[更新日志](./changelog.md)中标注了与之前不兼容的版本外，皆可以直接替换二进制文件进行更新。
 :::tip
 如果阅读文档之后，还未解决你的问题，请[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
 :::

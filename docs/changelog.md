@@ -4,6 +4,18 @@ sidebar_position: 8
 
 # 更新日志
 
+### next
+- 修复Windows上的检查父文件夹密码失效
+- 优化代码结构
+- onedrive增加缩略图
+- 修复Windows Sharepoint目录问题
+- 增加Googledrive默认根目录
+- 支持蓝奏云（cookie和URL）
+- 修复onedrive排序问题
+- https支持
+- 增加WebDAV中转可选项
+- 修复文件名过长时样式问题
+
 ### v2.0.0-beta7
 - 修复可能产生的http连接无法结束的问题
 - 修复onedrive文件数量大于200时缺失的问题
