@@ -2,13 +2,15 @@
 sidebar_position: 44
 ---
 
-# 提交新的存储
+# 贡献新的存储
 
-在后端项目`drivers`包下创建两个新的文件：
+alist的driver部分的设计是易于扩展的，无需修改其他文件，只需在后端项目`drivers`包下创建两个新的文件：
 - {name}_driver.go
 - {name}.go
 
 *{name}表示存储名称*
+
+就可以扩展一种新的存储策略。
 
 ### {name}_driver.go
 在这个文件中需要做以下几件事：
@@ -47,7 +49,7 @@ type DriverConfig struct {
 type Item struct {
 	Name        string `json:"name"` //名称，必须和Account中的json标识匹配
 	Label       string `json:"label"` // 前端显示的标签
-	Type        string `json:"type"` // 类型，可选 string/select/bool
+	Type        string `json:"type"` // 类型，可选 string/select/bool，在drivers/types.go中定义
 	Values      string `json:"values"` // 类型为select时的可选项，使用,分割
 	Required    bool   `json:"required"` // 是否为必选项
 	Description string `json:"description"` // 此项的描述
@@ -61,7 +63,7 @@ type Item struct {
 
 出现错误时返回错误
 #### File(path string, account *model.Account) (*model.File, error)
-返回传入路径对应的`File`实例指针或错误，其在`model.File`定义。此函初及之后的函数其中传入的path已经是计算之后的值，已经去除了多账号时的前缀，所有通用错误定义在`drivers/error.go`文件中。
+返回传入路径对应的`File`实例指针或错误，其在`model.File`定义。此函初及之后的函数其中传入的path已经是计算之后的值，已经去除了多账号时的前缀，所有通用错误定义在`drivers/types.go`文件中。
 #### Files(path string, account *model.Account) ([]model.File, error)
 返回传入路径对应的目录下的所有`File`实列的slice或错误。
 #### Link(path string, account *model.Account) (string, error)

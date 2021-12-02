@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # 更新日志
 
-### next
+### v2.0.0
 - 修复Windows上的检查父文件夹密码失效
 - 优化代码结构
 - onedrive增加缩略图
@@ -15,6 +15,7 @@ sidebar_position: 8
 - https支持
 - 增加WebDAV中转可选项
 - 修复文件名过长时样式问题
+- 前端密码输入监听回车事件
 
 ### v2.0.0-beta7
 - 修复可能产生的http连接无法结束的问题
