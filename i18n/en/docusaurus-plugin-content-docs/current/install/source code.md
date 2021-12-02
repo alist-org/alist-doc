@@ -2,22 +2,22 @@
 sidebar_position: 3
 ---
 
-# 从源码运行
+# Run from source
 
 :::danger
 
-此步骤只是为需要自行修改源码的用户准备，不了解的话请跳过。
+This step is only for users who need to modify the source code by themselves. If you don't understand, please skip it.
 
 :::
 
-### 环境准备
-首先需要有`git`、`nodejs`、`yarn`、`golang>1.17`, `gcc`的环境
+### Environmental preparation
+First, you need to have an environment of `git`, `nodejs`, `yarn`, `golang>1.17`, `gcc`
 
-### 构建前端
-clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn&& yarn build`，得到dist目录下的目标文件
+### Building the front end
+clone https://github.com/Xhofe/alist-web this project, execute `yarn&& yarn build` to get the target file in the dist directory
 
-### 构建后端
-clone https://github.com/Xhofe/alist 这个项目,将上一步dist目录下的文件全部拷贝至项目下的public目录，然后：
+### Build the backend
+clone https://github.com/Xhofe/alist for this project, copy all the files in the dist directory of the previous step to the public directory under the project, and then:
 ```bash
 appName="alist"
 builtAt="$(date +'%F %T %z')"

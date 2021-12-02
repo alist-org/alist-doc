@@ -14,18 +14,9 @@ sidebar_position: 1
 
 一款支持多种存储的目录文件列表程序，支持web浏览与webdav（只读），后端基于`gin`，前端使用`react`。
 
-### 项目地址
+## 讨论
 
-- https://github.com/Xhofe/alist
-- https://github.com/Xhofe/alist-web
-
-### 演示地址
-
-- https://alist.nn.ci
-
-### 预览
-
-![preview](https://store.heytapimage.com/cdo-portal/feedback/202111/03/695ef77854a144e928518efde38db97a.png)
+一般问题请到[讨论论坛](https://github.com/Xhofe/alist/discussions) ，**issue仅针对错误报告。**
 
 ### 支持的存储
 
@@ -36,6 +27,11 @@ sidebar_position: 1
 - GoogleDrive
 - 123pan
 - ...
+
+### 演示
+- https://alist.nn.ci
+
+![preview](https://store.heytapimage.com/cdo-portal/feedback/202111/03/695ef77854a144e928518efde38db97a.png)
 
 ### License
 

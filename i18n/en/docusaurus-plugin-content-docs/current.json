@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.安装": {
+    "message": "Install",
+    "description": "The label for category 安装 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.后台设置": {
+    "message": "Settings",
+    "description": "The label for category 后台设置 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.添加账号": {
+    "message": "Add Account",
+    "description": "The label for category 添加账号 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.加密与隐藏": {
+    "message": "Encryption and Hiding",
+    "description": "The label for category 加密与隐藏 in sidebar tutorialSidebar"
+  }
+}

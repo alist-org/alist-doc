@@ -1,0 +1,22 @@
+---
+sidebar_position: 3
+---
+
+# Aliyundrive
+
+:::tip
+
+Due to the limitation of the referrer of Aliyundrive, the mobile token must be used. Using the desktop web token will result in failure to download and preview.
+
+:::
+
+### refresh_token (refresh token)
+How to get reference to this [issue](https://github.com/Xhofe/alist/issues/88) Capture/find the log on the mobile phone (/data/media/0/Android/data/com.alicloud.databox/ files/logs/trace/), or use https://media.cooluc.com/decode_token/
+### Sorting and sorting direction
+Choose by yourself, or don’t choose
+### Root folder file_id
+Open the official website of Aliyundrive and click the string behind the url when you click into the folder you want to set, such as https://www.aliyundrive.com/drive/folder/5fe01e1830601baf774e4827a9fb8fb2b5bf7940, which is `5fe01e1830601baf774e4827a9fb8fb2b5bf7940`
+![file_id](https://store.heytapimage.com/cdo-portal/feedback/202111/24/e69c2d064d6794fc008c7ba1588707da.png)
+
+### limit
+If it is difficult for your server to communicate with the server of the Aliyundrive, you can choose to fill in a smaller value, otherwise it will be left blank by default.
