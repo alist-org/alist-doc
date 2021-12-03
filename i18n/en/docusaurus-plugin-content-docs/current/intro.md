@@ -5,14 +5,15 @@ sidebar_position: 1
 # Introduction
 
 [![](https://img.shields.io/github/release/Xhofe/alist?style=flat-square)](https://github.com/Xhofe/alist/releases/latest)
+[![GitHub Discussions](https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936&style=flat-square)](https://github.com/Xhofe/alist/discussions)
 [![](https://img.shields.io/github/workflow/status/Xhofe/alist/build?style=flat-square)](https://github.com/Xhofe/alist/actions?query=workflow%3ABuild)
-[![](https://img.shields.io/github/downloads/Xhofe/alist/total?style=flat-square)](https://github.com/Xhofe/alist/releases)
+[![](https://img.shields.io/github/downloads/Xhofe/alist/total?style=flat-square&color=%239F7AEA)](https://github.com/Xhofe/alist/releases)
 [![](https://data.jsdelivr.com/v1/package/gh/Xhofe/alist-web/badge)](https://www.jsdelivr.com/package/gh/Xhofe/alist-web)
 [![](https://img.shields.io/badge/%24-donate-ff69b4.svg?style=flat-square)](https://pay.xhofe.top)
 
 ### What's this
 
-A file list program that supports multiple storage, powered by gin and React. English documents are translated using Google.
+A file list program that supports multiple storage, powered by gin and React. English documents are translated using Google.You can click the `Edit this page` button below to help improve the translation
 
 ### Support storage
 
