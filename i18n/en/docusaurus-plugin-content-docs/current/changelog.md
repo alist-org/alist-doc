@@ -5,9 +5,15 @@ sidebar_position: 8
 # Changelog
 
 ### next
+:::caution
+The previous custom styles and custom scripts will be invalid, but they will still be visible in the background settings.
+:::
 - The straight chain password is added to the file name to add salt
 - Optimize the code structure of the direct chain encryption part
 - Fix the problem that overlay components are covered by markdown components
+- Remove the previous custom styles and custom scripts, and change to custom heads and custom bodies
+- Remove the 100% height limit on the homepage
+- Modify the build target of vite to es2015 to improve browser compatibility
 
 ### v2.0.0
 - Repair the check parent folder password failure on Windows
