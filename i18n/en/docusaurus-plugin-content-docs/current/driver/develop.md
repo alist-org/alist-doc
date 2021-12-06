@@ -4,29 +4,29 @@ sidebar_position: 44
 
 # Contribute new storage
 
-The design of the driver part of alist is easy to extend, no need to modify other files, just create two new files under the back-end project `drivers` package:
-- {name}_driver.go
+The design of the driver part of alist is easy to extend, no need to modify other files, just create a new package under the back-end project `drivers` package and reference this package in the all.go file, the package needs to contain at least two files :
+- driver.go
 - {name}.go
 
 *{name} represents the storage name*
 
 You can extend a new storage strategy.
 
-### {name}_driver.go
+### driver.go
 The following things need to be done in this file:
--Create a new struct
--Implement the `Driver` interface under `drivers` for this struct:
+- Create a new struct
+- Implement the `Driver` interface under `drivers/base` for this struct:
 ```go
 type Driver interface {
-	Config() DriverConfig
-	Items() []Item
-	Save(account *model.Account, old *model.Account) error
-	File(path string, account *model.Account) (*model.File, error)
-	Files(path string, account *model.Account) ([]model.File, error)
-	Link(path string, account *model.Account) (string, error)
-	Path(path string, account *model.Account) (*model.File, []model.File, error)
-	Proxy(c *gin.Context, account *model.Account)
-	Preview(path string, account *model.Account) (interface{}, error)
+  Config() DriverConfig
+  Items() []Item
+  Save(account *model.Account, old *model.Account) error
+  File(path string, account *model.Account) (*model.File, error)
+  Files(path string, account *model.Account) ([]model.File, error)
+  Link(path string, account *model.Account) (string, error)
+  Path(path string, account *model.Account) (*model.File, []model.File, error)
+  Proxy(c *gin.Context, account *model.Account)
+  Preview(path string, account *model.Account) (interface{}, error)
 }
 ```
 ### {name}.go
@@ -39,7 +39,7 @@ The following things need to be done in this file:
 Return an instance of `DriverConfig`:
 ```go
 type DriverConfig struct {
-  Name string // storage name, unique identification
+Name string // storage name, unique identification
   OnlyProxy bool // Whether it can only be transferred through the server
 }
 ```
@@ -72,7 +72,7 @@ Returns the direct link of the file corresponding to the incoming path (except l
 Judge whether it is a file or a folder by calling the above-mentioned File and Files function, and return it. When it is a file, a direct link of the file is attached.
 #### Proxy(c *gin.Context, account *model.Account)
 When transiting through the server, the processing of the request context, such as:
--Add/modify/remove Authorization/Origin/Referrer
+- Add/modify/remove Authorization/Origin/Referrer
 #### Preview(path string, account *model.Account) (interface{}, error)
 When this store provides a preview interface, it can be implemented selectively, and if the front-end is implemented, it needs to be modified accordingly. like:
--Office preview of Alibaba Cloud Disk.
+- Office preview of aliyundrive.

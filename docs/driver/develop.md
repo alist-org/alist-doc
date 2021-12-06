@@ -4,18 +4,18 @@ sidebar_position: 44
 
 # 贡献新的存储
 
-alist的driver部分的设计是易于扩展的，无需修改其他文件，只需在后端项目`drivers`包下创建两个新的文件：
-- {name}_driver.go
+alist的driver部分的设计是易于扩展的，无需修改其他文件，只需在后端项目`drivers`包下创建一个新的包并在all.go文件中引用这个包，包至少需要包含两个文件：
+- driver.go
 - {name}.go
 
 *{name}表示存储名称*
 
 就可以扩展一种新的存储策略。
 
-### {name}_driver.go
+### driver.go
 在这个文件中需要做以下几件事：
 - 创建一个新的struct
-- 为这个struct实现`drivers`下的`Driver`接口：
+- 为这个struct实现`drivers/base`下的`Driver`接口：
 ```go
 type Driver interface {
 	Config() DriverConfig
