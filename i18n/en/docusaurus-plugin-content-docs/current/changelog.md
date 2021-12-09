@@ -6,7 +6,7 @@ sidebar_position: 8
 
 ### next
 :::caution
-The previous custom styles and custom scripts will be invalid, but they will still be visible in the background settings.
+The previous custom styles and custom scripts will be invalid, but they will still be visible in the background settings, which can be reset in the custom header and custom body.
 :::
 - The straight chain password is added to the file name to add salt
 - Optimize the code structure of the direct chain encryption part
@@ -14,6 +14,16 @@ The previous custom styles and custom scripts will be invalid, but they will sti
 - Remove the previous custom styles and custom scripts, and change to custom heads and custom bodies
 - Remove the 100% height limit on the homepage
 - Modify the build target of vite to es2015 to improve browser compatibility
+- Add salt to the background password
+- The file list no longer requires a password after logging in to the background
+- Fix the encoding problem when the file name contains% (try not to include %, it will report an error when refreshing)
+- Allow deletion of outdated settings
+- WebDAV: New Alibaba Cloud Disk supports uploading, moving, creating folders, and deleting
+- Support adding Aliist abstract as a driver
+- Support using cloudflare worker to transfer download files
+- Fix that the local file named `index.html` cannot be previewed
+- Support `webm` suffix video preview
+- Optimized the code structure and abstracted multiple methods
 
 ### v2.0.0
 - Repair the check parent folder password failure on Windows
