@@ -13,7 +13,7 @@ Check if the encoding is not supported. Generally, browsers do not support encod
 After allowing the transfer, copy the corresponding file and change the /d to /p.
 ### Where are the front-end files?
 To facilitate the installation, the front-end file and the program are packaged together. If you need to modify it, please modify and compile by yourself according to run from the source code or fill in the custom style/script field.
-### Forgot the password, why half?
+### What should I do if I forgot my password?
 Command line ./alist-xxxx -password to view.
 ### Custom styles/scripts don’t take effect?
 Are the front and rear ends separated? The custom part is the back-end processing and only works when it is not separated.
