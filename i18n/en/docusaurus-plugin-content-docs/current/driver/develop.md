@@ -18,21 +18,27 @@ The following things need to be done in this file:
 - Implement the `Driver` interface under `drivers/base` for this struct:
 ```go
 type Driver interface {
-  Config() DriverConfig
-  Items() []Item
-  Save(account *model.Account, old *model.Account) error
-  File(path string, account *model.Account) (*model.File, error)
-  Files(path string, account *model.Account) ([]model.File, error)
-  Link(path string, account *model.Account) (string, error)
-  Path(path string, account *model.Account) (*model.File, []model.File, error)
-  Proxy(c *gin.Context, account *model.Account)
-  Preview(path string, account *model.Account) (interface{}, error)
+	Config() DriverConfig
+	Items() []Item
+	Save(account *model.Account, old *model.Account) error
+	File(path string, account *model.Account) (*model.File, error)
+	Files(path string, account *model.Account) ([]model.File, error)
+	Link(path string, account *model.Account) (*Link, error)
+	Path(path string, account *model.Account) (*model.File, []model.File, error)
+	Proxy(c *gin.Context, account *model.Account)
+	Preview(path string, account *model.Account) (interface{}, error)
+	// The following method is used for WebDAV reading, you don’t need to implement it, just return base.ErrNotImplement
+	MakeDir(path string, account *model.Account) error
+	Move(src string, dst string, account *model.Account) error
+	Copy(src string, dst string, account *model.Account) error
+	Delete(path string, account *model.Account) error
+	Upload(file *model.FileStream, account *model.Account) error
 }
 ```
 ### {name}.go
 The following things need to be done in this file:
--Implement some functions needed in the previous file
--Create an init function, and register the struct in the previous file in the init function by calling `RegisterDriver`
+- Implement some functions needed in the previous file
+- Create an init function, and register the struct in the previous file in the init function by calling `RegisterDriver`
 
 ### Driver interface
 #### Config() DriverConfig
@@ -66,8 +72,8 @@ Return an error when an error occurs
 Returns the `File` instance pointer or error corresponding to the passed path, which is defined in `model.File`. In the functions at the beginning of this letter and later, the path passed in is already the calculated value, and the prefix for multiple accounts has been removed. All common errors are defined in the `drivers/types.go` file.
 #### Files(path string, account *model.Account) ([]model.File, error)
 Returns all slices or errors in the `File` list under the directory corresponding to the passed path.
-#### Link(path string, account *model.Account) (string, error)
-Returns the direct link of the file corresponding to the incoming path (except local).
+#### Link(path string, account *model.Account) (*Link, error)
+Returns the direct link of the file corresponding to the incoming path (except local), and contains the request headers that need to be carried.
 #### Path(path string, account *model.Account) (*model.File, []model.File, error)
 Judge whether it is a file or a folder by calling the above-mentioned File and Files function, and return it. When it is a file, a direct link of the file is attached.
 #### Proxy(c *gin.Context, account *model.Account)
@@ -75,4 +81,14 @@ When transiting through the server, the processing of the request context, such 
 - Add/modify/remove Authorization/Origin/Referrer
 #### Preview(path string, account *model.Account) (interface{}, error)
 When this store provides a preview interface, it can be implemented selectively, and if the front-end is implemented, it needs to be modified accordingly. like:
-- Office preview of aliyundrive.
+- Office preview of Alibaba Cloud Disk.
+#### MakeDir(path string, account *model.Account) error
+Create folder
+#### Move(src string, dst string, account *model.Account) error
+Move and rename
+#### Copy(src string, dst string, account *model.Account) error
+copy
+#### Delete(path string, account *model.Account) error
+delete
+#### Upload(file *model.FileStream, account *model.Account) error
+upload files

@@ -23,10 +23,16 @@ type Driver interface {
 	Save(account *model.Account, old *model.Account) error
 	File(path string, account *model.Account) (*model.File, error)
 	Files(path string, account *model.Account) ([]model.File, error)
-	Link(path string, account *model.Account) (string, error)
+	Link(path string, account *model.Account) (*Link, error)
 	Path(path string, account *model.Account) (*model.File, []model.File, error)
 	Proxy(c *gin.Context, account *model.Account)
 	Preview(path string, account *model.Account) (interface{}, error)
+	// 下面的方法是用于WebDAV读的，可以不实现，返回base.ErrNotImplement即可
+	MakeDir(path string, account *model.Account) error
+	Move(src string, dst string, account *model.Account) error
+	Copy(src string, dst string, account *model.Account) error
+	Delete(path string, account *model.Account) error
+	Upload(file *model.FileStream, account *model.Account) error
 }
 ```
 ### {name}.go
@@ -66,8 +72,8 @@ type Item struct {
 返回传入路径对应的`File`实例指针或错误，其在`model.File`定义。此函初及之后的函数其中传入的path已经是计算之后的值，已经去除了多账号时的前缀，所有通用错误定义在`drivers/types.go`文件中。
 #### Files(path string, account *model.Account) ([]model.File, error)
 返回传入路径对应的目录下的所有`File`实列的slice或错误。
-#### Link(path string, account *model.Account) (string, error)
-返回传入路径对应的文件的直链（本地除外）。
+#### Link(path string, account *model.Account) (*Link, error)
+返回传入路径对应的文件的直链（本地除外），并包含需要携带的请求头。
 #### Path(path string, account *model.Account) (*model.File, []model.File, error)
 通过调用上述的File与Files函数判断是文件还是文件夹，并进行返回，当是文件时附带文件的直链。
 #### Proxy(c *gin.Context, account *model.Account)
@@ -76,3 +82,13 @@ type Item struct {
 #### Preview(path string, account *model.Account) (interface{}, error)
 当此存储提供了预览接口时，可选择性实现，若实现前端也需要对应修改。如：
 - 阿里云盘的office预览。
+#### MakeDir(path string, account *model.Account) error
+创建文件夹
+#### Move(src string, dst string, account *model.Account) error
+移动与重命名
+#### Copy(src string, dst string, account *model.Account) error
+复制
+#### Delete(path string, account *model.Account) error
+删除
+#### Upload(file *model.FileStream, account *model.Account) error
+上传文件
