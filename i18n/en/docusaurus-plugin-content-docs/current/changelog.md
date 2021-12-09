@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # Changelog
 
-### next
+### v2.0.1
 :::caution
 The previous custom styles and custom scripts will be invalid, but they will still be visible in the background settings, which can be reset in the custom header and custom body.
 :::
