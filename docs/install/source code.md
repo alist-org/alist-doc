@@ -14,7 +14,7 @@ sidebar_position: 3
 首先需要有`git`、`nodejs`、`yarn`、`golang>1.17`, `gcc`的环境
 
 ### 构建前端
-clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn&& yarn build`，得到dist目录下的目标文件
+clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn && yarn build`，得到dist目录下的目标文件
 
 ### 构建后端
 clone https://github.com/Xhofe/alist 这个项目,将上一步dist目录下的文件全部拷贝至项目下的public目录，然后：

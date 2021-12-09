@@ -14,7 +14,7 @@ This step is only for users who need to modify the source code by themselves. If
 First, you need to have an environment of `git`, `nodejs`, `yarn`, `golang>1.17`, `gcc`
 
 ### Building the front end
-clone https://github.com/Xhofe/alist-web this project, execute `yarn&& yarn build` to get the target file in the dist directory
+clone https://github.com/Xhofe/alist-web this project, execute `yarn && yarn build` to get the target file in the dist directory
 
 ### Build the backend
 clone https://github.com/Xhofe/alist for this project, copy all the files in the dist directory of the previous step to the public directory under the project, and then:
