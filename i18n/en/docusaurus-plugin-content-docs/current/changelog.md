@@ -18,7 +18,7 @@ The previous custom styles and custom scripts will be invalid, but they will sti
 - The file list no longer requires a password after logging in to the background
 - Fix the encoding problem when the file name contains% (try not to include %, it will report an error when refreshing)
 - Allow deletion of outdated settings
-- WebDAV: New Alibaba Cloud Disk supports uploading, moving, creating folders, and deleting
+- WebDAV: New Local storage/Aliyundrive supports uploading, moving, creating folders, and deleting
 - Support adding Aliist abstract as a driver
 - Support using cloudflare worker to transfer download files
 - Fix that the local file named `index.html` cannot be previewed
