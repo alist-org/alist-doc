@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # One-click script
 
+Only for Linux-x86_64 platform.
+
 ### Install
 ```bash
 curl -fsSL "https://nn.ci/alist.sh" | bash -s install
