@@ -27,7 +27,7 @@ type Driver interface {
 	Path(path string, account *model.Account) (*model.File, []model.File, error)
 	Proxy(c *gin.Context, account *model.Account)
 	Preview(path string, account *model.Account) (interface{}, error)
-	// The following method is used for WebDAV reading, you don’t need to implement it, just return base.ErrNotImplement
+	// The following method is used for WebDAV writing, you don’t need to implement it, just return base.ErrNotImplement
 	MakeDir(path string, account *model.Account) error
 	Move(src string, dst string, account *model.Account) error
 	Copy(src string, dst string, account *model.Account) error

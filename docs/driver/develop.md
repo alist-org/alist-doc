@@ -27,7 +27,7 @@ type Driver interface {
 	Path(path string, account *model.Account) (*model.File, []model.File, error)
 	Proxy(c *gin.Context, account *model.Account)
 	Preview(path string, account *model.Account) (interface{}, error)
-	// 下面的方法是用于WebDAV读的，可以不实现，返回base.ErrNotImplement即可
+	// 下面的方法是用于WebDAV写的，可以不实现，返回base.ErrNotImplement即可
 	MakeDir(path string, account *model.Account) error
 	Move(src string, dst string, account *model.Account) error
 	Copy(src string, dst string, account *model.Account) error
