@@ -31,10 +31,10 @@ Three themes provided by the upstream warehouse, you can choose by yourself.
 When previewing the video, there is no need to manually click to play, it will start automatically.
 ### Auto play audio
 When previewing the audio, there is no need to manually click to play, it will start automatically.
-### Custom style
-Fill in the css style, no need to add style tag, automatically placed at the end of the head of the web page.
-### Custom script
-Fill in the js script, no need to add the script tag, it is automatically placed at the end of the body of the web page.
+### Custom head
+Any content needs to include its own tags, which are automatically placed at the beginning of the head of the page
+### Custom body
+Any content needs to include its own tags, which are automatically placed at the end of the body of the web page
 ### Animation
 The animation that pops up in the file list, when the number of files is large, the animation will cause a freeze.
 ### check down link
