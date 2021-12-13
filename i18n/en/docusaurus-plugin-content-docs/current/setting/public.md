@@ -12,7 +12,7 @@ The LOGO in the upper left corner can be filled with two and separated by `,`, w
 ### favicon
 Small icons displayed on browser tabs.
 ### Icon color
-Front-end realistic icons and the color of loaded components.
+The color of "Icons and Loding" displayed on the front end.
 ### Text type
 The suffix opened in text mode when previewing, separated by `,`.
 ### Hide readme file
