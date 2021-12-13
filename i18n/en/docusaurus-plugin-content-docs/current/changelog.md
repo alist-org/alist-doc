@@ -24,6 +24,7 @@ The previous custom styles and custom scripts will be invalid, but they will sti
 - Fix that the local file named `index.html` cannot be previewed
 - Support `webm` suffix video preview
 - Optimized the code structure and abstracted multiple methods
+- Modify the proxy settings of the account, all traffic will go to the server after opening
 
 ### v2.0.0
 - Repair the check parent folder password failure on Windows
