@@ -18,6 +18,7 @@ chmod +x alist-xxxx
 # Run the program
 ./alist-xxxx
 ```
+*The xxxx refers to the names corresponding to different systems/architectures, generally Linux-x86/64 is alist-linux-amd64*
 
 <details>
   <summary>Windows</summary>

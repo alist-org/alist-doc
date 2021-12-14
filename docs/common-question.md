@@ -14,7 +14,7 @@ sidebar_position: 6
 ### 前端文件在哪里？
 为方便安装，前端文件与程序打包在一起了，如需修改，请按照从源码运行自行修改编译或填写自定义样式/脚本字段。
 ### 密码忘了怎么办？
-命令行 ./alist-xxxx -password查看。
+命令行 ./alist-xxxx -password查看。(其中的xxxx是指不同系统/架构对应的名称，一般Linux-x86/64是alist-linux-amd64，若使用脚本安装，则名称直接为alist)
 ### 自定义样式/脚本不生效？
 是否前后端分开了？自定义部分为后端处理，只有在不分开时才起作用。
 ### 上传的文件不显示/删除的文件还在/修改根目录不生效？
@@ -25,6 +25,8 @@ sidebar_position: 6
 webdav是给浏览器用的吗？
 ### 如何更新？
 除了在[更新日志](./changelog.md)中标注了与之前不兼容的版本外，皆可以直接替换二进制文件进行更新。
+docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112/12/1e64956f796e95070bed2d7f2c61bdd5.png
+
 :::tip
 如果阅读文档之后，还未解决你的问题，请优先[在Discussions中提问/讨论](https://github.com/Xhofe/alist/discussions/new)或[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
 :::
