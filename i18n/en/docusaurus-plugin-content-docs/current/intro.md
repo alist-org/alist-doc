@@ -24,19 +24,24 @@ A file list program that supports multiple storage, powered by gin and React. En
 - [x] [GoogleDrive](https://drive.google.com/)
 - [x] [123pan](https://www.123pan.com/)
 - [x] [lanzou](https://pc.woozooo.com/)
+- [x] [Alist](https://github.com/Xhofe/alist)
+- [x] FTP
+- [x] [PikPak](https://www.mypikpak.com/)
 
 ### WebDav Support
 
-|             | list files | file download | make dir | rename | move | upload |
-| ----------- | :--------: | :-----------: | :------: | :----: | :--: | :----: |
-| Native      |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ✅   |
-| AliDirve    |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ✅   |
-| Onedrive    |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
-| 189Cloud    |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ❌   |
-| GoogleDrive |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
-| 123pan      |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ❌   |
-| lanzou      |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
-| Alist       |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
+|             | list | download | mkdir | rename | move | copy | upload |
+| ----------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
+| Native      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| AliDirve    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| Onedrive    |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| 189Cloud    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
+| GoogleDrive |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| 123pan      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ❌   |
+| lanzou      |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| Alist       |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| FTP         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| PikPak      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
 
 ### Discussion
 
