@@ -4,6 +4,22 @@ sidebar_position: 8
 
 # 更新日志
 
+### v2.0.2
+:::caution
+修改了onedrive类型字段，需要在后台重新选择onedrive类型。
+:::
+- 修复多图预览时缩略图被裁切问题 [#212](https://github.com/Xhofe/alist/issues/212)
+- 修复点击浏览图片后直接返回上一层，出现异常的请求 [#212](https://github.com/Xhofe/alist/issues/212)
+- 修复使用错误的密码登陆后台后无法使用游客密码查看文件的问题
+- 修复请求预览接口时未添加密码的问题
+- 修复Alist存储策略跟文件夹不生效的问题
+- 修复cloudflare workers代理签名不匹配的问题
+- 支持本地文件代理
+- 天翼云盘与123云盘部分WebDAV写支持
+- 修复onedrive获取到的refresh_token为空的问题（未测试）
+- 新的存储：FTP
+- 新的存储：PikPak
+
 ### v2.0.1
 :::caution
 之前的自定义样式和自定义脚本会失效，但在后台设置里还会看得到，可在自定义头部与自定义body里重新设置。

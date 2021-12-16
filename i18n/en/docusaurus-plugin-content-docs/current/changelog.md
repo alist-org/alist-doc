@@ -4,6 +4,22 @@ sidebar_position: 8
 
 # Changelog
 
+### v2.0.2
+:::caution
+Modified the onedrive type field, you need to reselect the onedrive type in the background.
+:::
+- Fix the issue of thumbnails being cropped during multi-image preview [#212](https://github.com/Xhofe/alist/issues/212)
+- Fixed an abnormal request after clicking on the browse image to return directly to the previous layer [#212](https://github.com/Xhofe/alist/issues/212)
+- Fix the problem that the visitor password cannot be used to view files after logging in to the background with the wrong password
+- Fix the problem that the password is not added when requesting the preview interface
+- Fix the issue that the Aliist storage policy and folder do not take effect
+- Fix the problem that the proxy signatures of cloudflare workers do not match
+- Support local file proxy
+- Partial WebDAV writing support for Tianyi Cloud Disk and 123 Cloud Disk
+- Fix the problem that the refresh_token obtained by onedrive is empty (not tested)
+- New storage: FTP
+- New storage: PikPak
+
 ### v2.0.1
 :::caution
 The previous custom styles and custom scripts will be invalid, but they will still be visible in the background settings, which can be reset in the custom header and custom body.
