@@ -25,9 +25,22 @@ A file list program that supports multiple storage, powered by gin and React. En
 - [x] [123pan](https://www.123pan.com/)
 - [x] [lanzou](https://pc.woozooo.com/)
 
+### WebDav Support
+
+|             | list files | file download | make dir | rename | move | upload |
+| ----------- | :--------: | :-----------: | :------: | :----: | :--: | :----: |
+| Native      |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ✅   |
+| AliDirve    |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ✅   |
+| Onedrive    |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
+| 189Cloud    |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ❌   |
+| GoogleDrive |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
+| 123pan      |     ✅     |      ✅       |    ✅    |   ✅   |  ✅  |   ❌   |
+| lanzou      |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
+| Alist       |     ✅     |      ✅       |    ❌    |   ❌   |  ❌  |   ❌   |
+
 ### Discussion
 
-Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) for general questions, **issues are for bug reports  only.**
+Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) for general questions, **issues are for bug reports only.**
 
 ### Demo
 

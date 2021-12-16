@@ -13,11 +13,11 @@ sidebar_position: 1
 
 ### 是什么？
 
-一款支持多种存储的目录文件列表程序，支持web浏览与webdav（只读），后端基于`gin`，前端使用`react`。
+一款支持多种存储的目录文件列表程序，支持 web 浏览与 webdav（只读），后端基于`gin`，前端使用`react`。
 
 ## 讨论
 
-一般问题请到[讨论论坛](https://github.com/Xhofe/alist/discussions) ，**issue仅针对错误报告。**
+一般问题请到[讨论论坛](https://github.com/Xhofe/alist/discussions) ，**issue 仅针对错误报告。**
 
 ### 支持的存储
 
@@ -27,9 +27,25 @@ sidebar_position: 1
 - 天翼云盘
 - GoogleDrive
 - 123pan
+- 蓝奏云
+- Alist
 - ...
 
+### WebDav 支持
+
+|             | 文件列表 | 文件下载 | 创建文件夹 | 重命名 | 移动 | 上传 |
+| ----------- | :------: | :------: | :--------: | :----: | :--: | :--: |
+| 本地存储    |    ✅    |    ✅    |     ✅     |   ✅   |  ✅  |  ✅  |
+| 阿里云盘    |    ✅    |    ✅    |     ✅     |   ✅   |  ✅  |  ✅  |
+| Onedrive    |    ✅    |    ✅    |     ❌     |   ❌   |  ❌  |  ❌  |
+| 天翼云盘    |    ✅    |    ✅    |     ✅     |   ✅   |  ✅  |  ❌  |
+| GoogleDrive |    ✅    |    ✅    |     ❌     |   ❌   |  ❌  |  ❌  |
+| 123 云盘    |    ✅    |    ✅    |     ✅     |   ✅   |  ✅  |  ❌  |
+| 蓝奏云      |    ✅    |    ✅    |     ❌     |   ❌   |  ❌  |  ❌  |
+| Alist       |    ✅    |    ✅    |     ❌     |   ❌   |  ❌  |  ❌  |
+
 ### 演示
+
 - https://alist.nn.ci
 
 ![preview](https://store.heytapimage.com/cdo-portal/feedback/202111/03/695ef77854a144e928518efde38db97a.png)
