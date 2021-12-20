@@ -3,6 +3,26 @@ sidebar_position: 9
 ---
 
 # Example style
+### No box-shadow
+```css
+.chakra-ui-light{
+  background-color: #FFF5F5;
+}
+.main-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+.chakra-ui-light .main-box {
+  background-color: rgba(255,255,255,0.9) !important;
+}
+.chakra-ui-light .readme-box {
+  background-color: rgba(255,255,255,0.9) !important;
+}
+.readme-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+```
 ### Imitation 大白 style
 ```css
 .chakra-ui-light{
