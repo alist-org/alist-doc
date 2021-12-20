@@ -62,6 +62,11 @@ const config = {
             position: "left",
             label: "Tutorials",
           },
+          {
+            position: "left",
+            label: "Demo",
+            href: "https://alist.nn.ci",
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: "localeDropdown",
