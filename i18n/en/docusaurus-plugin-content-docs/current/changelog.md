@@ -4,6 +4,20 @@ sidebar_position: 8
 
 # Changelog
 
+### v2.0.3
+- Modify pdf preview to pdfjs
+- For music covers with preview images, display as preview images
+- Video subtitle support (automatically search the first one in the same directory as the name of the video file name and the extension is `srt, vtt, ass`)
+- Modified the code of the internationalization part
+- Fix the bug in the FTP download part
+- Support API proxy (for PikPak and GoogleDrive)
+- Solve the 403 problem caused by the IP limit of the 123Pan
+- Modified the default custom style
+- Fixed the endless loop caused by PikPak refresh token
+- Added the option of using local front-end js files
+- Modify the default icon color
+- Modified the agent field, the original agent will be invalid
+
 ### v2.0.2
 :::caution
 Modified the onedrive type field, you need to reselect the onedrive type in the background.
