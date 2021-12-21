@@ -6,7 +6,7 @@ sidebar_position: 9
 ### 无边框阴影
 ```css
 .chakra-ui-light{
-  background-color: #FFF5F5;
+  background-color: #FAF5FF;
 }
 .main-box {
   border-radius: 15px !important;
