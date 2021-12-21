@@ -15,6 +15,12 @@ location / {
     proxy_pass http://127.0.0.1:5244;
 }
 ```
+:::caution
+如果你使用宝塔，请务必删除以下默认配置
+- location ~ ^/(\.user.ini|\.htaccess|\.git|\.svn|\.project|LICENSE|README.md
+- location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+- location ~ .*\.(js|css)?$
+:::
 
 ### Apache
 在VirtualHost字段下加入反代配置项ProxyPass，比如：

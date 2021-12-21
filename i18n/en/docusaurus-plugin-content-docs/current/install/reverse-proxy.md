@@ -15,6 +15,12 @@ location / {
      proxy_pass http://127.0.0.1:5244;
 }
 ```
+:::caution
+If you use the bt.cn, be sure to delete the following default configuration
+- location ~ ^/(\.user.ini|\.htaccess|\.git|\.svn|\.project|LICENSE|README.md
+- location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+- location ~ .*\.(js|css)?$
+:::
 
 ### Apache
 Add the anti-generation configuration item ProxyPass under the VirtualHost field, such as:
