@@ -1,52 +1,54 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Translate, { translate } from "@docusaurus/Translate";
 
 const AliToken = () => {
   const [src, setSrc] = React.useState("");
   const [token, setToken] = React.useState("");
   const [err, setErr] = React.useState("");
+  const interval = useRef(null);
+  useEffect(() => {
+    return () => {
+      if (interval.current) {
+        clearInterval(interval.current);
+      }
+    };
+  }, []);
   return (
     <div>
       <button
         disabled={src !== ""}
-        className="button button--secondary"
+        className="button button--primary button--lg"
         onClick={() => {
-          fetch(
-            "https://proxy.nn.ci:15237/https://easy-token.cooluc.com/qr"
-          ).then((resp) =>
+          fetch("https://tool.nn.ci/api/alidrive/qr.ts").then((resp) =>
             resp.json().then((res) => {
               if (!res.success) {
                 setErr(JSON.stringify(res));
+                return;
               }
               setSrc(
                 `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
               );
-              const interval = setInterval(() => {
-                fetch(
-                  "https://proxy.nn.ci:15237/https://easy-token.cooluc.com/ck",
-                  {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                      ck: res.data.ck,
-                      t: res.data.t,
-                    }),
-                  }
-                ).then((resp) =>
+              const _interval = setInterval(() => {
+                fetch("https://tool.nn.ci/api/alidrive/ck.ts", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    ck: res.data.ck,
+                    t: res.data.t,
+                  }),
+                }).then((resp) =>
                   resp.json().then((res) => {
                     const result = res.pds_login_result;
                     if (result.refreshToken) {
                       setToken(result.refreshToken);
-                      clearInterval(interval);
-                    } else if (result !== "fail") {
-                      setErr(JSON.stringify(res));
-                      clearInterval(interval);
+                      clearInterval(_interval);
                     }
                   })
                 );
               }, 2000);
+              interval.current = _interval;
             })
           );
         }}
@@ -76,6 +78,9 @@ const AliToken = () => {
           {err}
         </div>
       )}
+      <div>
+        <i><Translate>API is hosted by vercel serverless</Translate></i>
+      </div>
     </div>
   );
 };
