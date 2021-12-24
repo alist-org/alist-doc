@@ -3,6 +3,27 @@ sidebar_position: 9
 ---
 
 # 示例样式
+### 透明美女背景阴影
+<style>
+.chakra-ui-light{
+  background-image:url("https://ae02.alicdn.com/kf/H9a75a92bb5654e62aca36441238be9c0l.png");
+}
+.main-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+.chakra-ui-light .main-box {
+  background-color: rgba(255,255,255,0.2) !important;
+}
+.chakra-ui-light .readme-box {
+  background-color: rgba(255,255,255,0.2) !important;
+}
+.readme-box {
+  border-radius: 15px !important;
+  box-shadow: unset !important;
+}
+</style>
+
 ### 无边框阴影
 ```css
 .chakra-ui-light{
