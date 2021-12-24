@@ -21,6 +21,7 @@ sidebar_position: 8
 ### v2.0.2
 :::caution
 修改了onedrive类型字段，需要在后台重新选择onedrive类型。
+此版本PikPak存在bug，请更新。
 :::
 - 修复多图预览时缩略图被裁切问题 [#212](https://github.com/Xhofe/alist/issues/212)
 - 修复点击浏览图片后直接返回上一层，出现异常的请求 [#212](https://github.com/Xhofe/alist/issues/212)

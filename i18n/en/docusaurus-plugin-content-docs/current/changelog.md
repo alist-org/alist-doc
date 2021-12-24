@@ -21,6 +21,7 @@ sidebar_position: 8
 ### v2.0.2
 :::caution
 Modified the onedrive type field, you need to reselect the onedrive type in the background.
+There are bugs in this version of PikPak, please update.
 :::
 - Fix the issue of thumbnails being cropped during multi-image preview [#212](https://github.com/Xhofe/alist/issues/212)
 - Fixed an abnormal request after clicking on the browse image to return directly to the previous layer [#212](https://github.com/Xhofe/alist/issues/212)
