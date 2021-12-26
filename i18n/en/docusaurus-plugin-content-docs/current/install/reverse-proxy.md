@@ -34,3 +34,11 @@ Add the anti-generation configuration item ProxyPass under the VirtualHost field
     ProxyPass "/" "http://127.0.0.1:5244/" nocanon
 </VirtualHost>
 ```
+
+### Caddy
+Add the reverse_proxy configuration item reverse_proxy under the Caddyfile file, for example:
+```xml
+:80 {
+     reverse_proxy 127.0.0.1:5244
+}
+```
