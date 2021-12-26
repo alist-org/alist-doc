@@ -5,6 +5,7 @@ const AliToken = () => {
   const [src, setSrc] = React.useState("");
   const [token, setToken] = React.useState("");
   const [err, setErr] = React.useState("");
+  const [buttonText, setButtonText] = React.useState("Get Token");
   const interval = useRef(null);
   useEffect(() => {
     return () => {
@@ -16,15 +17,17 @@ const AliToken = () => {
   return (
     <div>
       <button
-        disabled={src !== ""}
+        disabled={buttonText !== "Get Token"}
         className="button button--primary button--lg"
         onClick={() => {
+          setButtonText("Waiting...");
           fetch("https://tool.nn.ci/api/alidrive/qr.ts").then((resp) =>
             resp.json().then((res) => {
               if (!res.success) {
                 setErr(JSON.stringify(res));
                 return;
               }
+              setButtonText("Use AliyunDrive APP to scan");
               setSrc(
                 `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
               );
@@ -53,9 +56,7 @@ const AliToken = () => {
           );
         }}
       >
-        <Translate>
-          {src ? "Use AliyunDrive APP to scan" : "Get Token"}
-        </Translate>
+        <Translate>{buttonText}</Translate>
       </button>
       <br />
       {src && (
@@ -79,7 +80,9 @@ const AliToken = () => {
         </div>
       )}
       <div>
-        <i><Translate>API is hosted by vercel serverless</Translate></i>
+        <i>
+          <Translate>API is hosted by vercel serverless</Translate>
+        </i>
       </div>
     </div>
   );
