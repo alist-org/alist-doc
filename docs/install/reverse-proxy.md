@@ -34,3 +34,11 @@ location / {
     ProxyPass "/" "http://127.0.0.1:5244/" nocanon
 </VirtualHost>
 ```
+
+### Caddy
+在Caddyfile文件下加入反代配置项reverse_proxy，比如：
+```xml
+:80 {
+        reverse_proxy 127.0.0.1:5244
+}
+```
