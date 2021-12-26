@@ -27,7 +27,7 @@ const AliToken = () => {
                 setErr(JSON.stringify(res));
                 return;
               }
-              setButtonText("Use AliyunDrive APP to scan");
+              setButtonText("Use AliyunDrive APP To Scan");
               setSrc(
                 `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
               );
