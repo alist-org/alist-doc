@@ -26,7 +26,7 @@ sidebar_position: 8
 - Replace markdown components to solve some preview issues [#185](https://github.com/Xhofe/alist/issues/185)
 - Use the preview image of react-viewer navigation bar [#212](https://github.com/Xhofe/alist/issues/212)
 - Optimize path component style
-- Support web page upload files (you can set the directory to allow visitors to upload)
+- Support web page upload files (you can set the directory to allow visitors to upload,and please be aware: all uploads go to the server)
 
 ### v2.0.3
 - Modify pdf preview to pdfjs

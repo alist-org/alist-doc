@@ -25,7 +25,7 @@ sidebar_position: 8
 - 更换markdown组件以解决一些预览问题 [#185](https://github.com/Xhofe/alist/issues/185)
 - react-viewer导航栏使用预览图 [#212](https://github.com/Xhofe/alist/issues/212)
 - 优化路径组件样式
-- 支持网页上传文件（可以设置目录允许访客上传）
+- 支持网页上传文件（可以设置目录允许访客上传，请知悉：上传全部走服务器）
 
 ### v2.0.3
 
