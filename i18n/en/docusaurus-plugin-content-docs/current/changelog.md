@@ -6,14 +6,13 @@ sidebar_position: 8
 
 ### v2.0.4
 
-#### v2.0.4-fix
-- Fix the interpretation error of whether it can be uploaded
+> #### v2.0.4-fix
+> - Fix the interpretation error of whether it can be uploaded
 
 - Added wav audio preview
 - Support hide account
 - Remove the `.` and `..` directories returned by FTP storage
 - Add WebDAV guest account
-
 - Set the grouping
 - Support onedrive, GoogleDrive, PikPak WebDAV writing
 - Added lightning disk storage support [#234](https://github.com/Xhofe/alist/discussions/234)
