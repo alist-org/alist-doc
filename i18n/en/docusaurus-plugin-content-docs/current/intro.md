@@ -33,21 +33,21 @@ A file list program that supports multiple storage, powered by gin and React. En
 
 ### WebDav Support
 
-|             | list | download | mkdir | rename | move | copy | upload |
-| ----------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
-| Native      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| AliDirve    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| Onedrive    |  ✅  |    ✅    |  ✅  |   ✅   |  ✅  |  ✅  |   ✅   |
-| 189Cloud    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
-| GoogleDrive |  ✅  |    ✅    |  ✅  |   ✅   |  ✅  |  ❌  |   ✅   |
-| 123pan      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ❌   |
-| lanzou      |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
-| Alist       |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
-| FTP         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| PikPak      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| shandian | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| S3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| WebDAV | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Storage strategy | list | download | mkdir | rename | move | copy | upload |
+| ---------------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
+| Native           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| AliDirve         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| Onedrive         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| 189Cloud         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
+| GoogleDrive      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| 123pan           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ❌   |
+| lanzou           |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| Alist            |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| FTP              |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| PikPak           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| shandian         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| S3               |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| WebDAV           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 
 ### Discussion
 

@@ -4,6 +4,8 @@ sidebar_position: 44
 
 # Contribute new storage
 
+> Some interfaces have been updated, please check the code for details.
+
 The design of the driver part of alist is easy to extend, no need to modify other files, just create a new package under the back-end project `drivers` package and reference this package in the all.go file, the package needs to contain at least two files :
 - driver.go
 - {name}.go
