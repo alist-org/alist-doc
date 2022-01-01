@@ -2,7 +2,10 @@
 sidebar_position: 10
 ---
 
-# 接口文档
+# API Document
+
+> 部分接口已过时。
+
 ## /public
 ```text
 无需登录的接口

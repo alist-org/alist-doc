@@ -9,3 +9,7 @@ Add meta, where path (path) is the pathname when accessing the alist page. If yo
 - https://alist.nn.ci -> `/`
 - https://alist.nn.ci/a -> `/a`
 - https://alist.nn.ci/a/b -> `/a/b`
+
+### Upload
+
+Whether to allow visitors to upload

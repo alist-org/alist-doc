@@ -4,7 +4,31 @@ sidebar_position: 8
 
 # 更新日志
 
+### v2.0.4
+
+- 新增wav音频预览
+- 支持隐藏账号
+- 去除FTP存储返回的`.`和`..`目录
+- 增加WebDAV访客账号
+- 设置分组
+- 支持onedrive、GoogleDrive、PikPak WebDAV写
+- 新增闪电盘存储支持 [#234](https://github.com/Xhofe/alist/discussions/234)
+- 对不支持排序的存储使用本地排序
+- GoogleDrive存储增加预览图
+- S3存储协议支持 [#211](https://github.com/Xhofe/alist/discussions/211)
+- 自定义缓存时间
+- WebDAV存储支持
+- 支持移动端使用artplayer
+- 视频列表播放（可自动切换）
+- 文件打包zip下载
+- 增加右键菜单，支持多选
+- 更换markdown组件以解决一些预览问题 [#185](https://github.com/Xhofe/alist/issues/185)
+- react-viewer导航栏使用预览图 [#212](https://github.com/Xhofe/alist/issues/212)
+- 优化路径组件样式
+- 支持网页上传文件（可以设置目录允许访客上传）
+
 ### v2.0.3
+
 - 修改pdf预览为pdfjs
 - 对于有预览图的音乐cover显示为预览图
 - 视频字幕支持（自动检索同目录下名称以视频文件名开头一样且拓展名为`srt, vtt, ass`中的第一个）

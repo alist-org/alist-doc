@@ -9,3 +9,7 @@ sidebar_position: 1
 - https://alist.nn.ci -> `/`
 - https://alist.nn.ci/a -> `/a`
 - https://alist.nn.ci/a/b -> `/a/b`
+
+### 上传
+
+是否允许游客上传

@@ -21,16 +21,19 @@ sidebar_position: 1
 
 ### 支持的存储
 
-- 本地存储
-- 阿里云盘
-- Onedrive/世纪互联
-- 天翼云盘
-- GoogleDrive
-- 123pan
-- 蓝奏云
-- Alist
-- FTP
-- [PikPak](https://www.mypikpak.com/)
+- [x] 本地存储
+- [x] [阿里云盘](https://www.aliyundrive.com/)
+- [x] OneDrive / Sharepoint（[国际版](https://www.office.com/), [世纪互联](https://portal.partner.microsoftonline.cn),de,us）
+- [x] [天翼云盘](https://cloud.189.cn)
+- [x] [GoogleDrive](https://drive.google.com/)
+- [x] [123 云盘](https://www.123pan.com/)
+- [x] [蓝奏云](https://pc.woozooo.com/)
+- [x] [Alist](https://github.com/Xhofe/alist)
+- [x] FTP
+- [x] [PikPak](https://www.mypikpak.com/)
+- [x] [闪电盘](https://shandianpan.com/)
+- [x] [S3](https://aws.amazon.com/cn/s3/)
+- [x] WebDav
 
 ### WebDav 支持
 
@@ -38,14 +41,17 @@ sidebar_position: 1
 | ----------- | :--: | :--: | :--------: | :----: | :--: | :--: | :--: |
 | 本地存储    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
 | 阿里云盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ❌  |  ✅  |
-| Onedrive    |  ✅  |  ✅  |     ❌     |   ❌   |  ❌  |  ❌  |  ❌  |
+| Onedrive    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
 | 天翼云盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ❌  |
-| GoogleDrive |  ✅  |  ✅  |     ❌     |   ❌   |  ❌  |  ❌  |  ❌  |
+| GoogleDrive |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ❌  |  ✅  |
 | 123 云盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ❌  |  ❌  |
 | 蓝奏云      |  ✅  |  ✅  |     ❌     |   ❌   |  ❌  |  ❌  |  ❌  |
 | Alist       |  ✅  |  ✅  |     ❌     |   ❌   |  ❌  |  ❌  |  ❌  |
 | FTP         |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ❌  |  ✅  |
-| PikPak      |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ❌  |
+| PikPak      |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
+| 闪电盘      |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ❌  |  ✅  |
+| S3          |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
+| WebDav      |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
 
 ### 演示
 

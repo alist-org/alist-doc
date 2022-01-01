@@ -4,6 +4,30 @@ sidebar_position: 8
 
 # Changelog
 
+### v2.0.4
+
+- Added wav audio preview
+- Support hide account
+- Remove the `.` and `..` directories returned by FTP storage
+- Add WebDAV guest account
+
+- Set the grouping
+- Support onedrive, GoogleDrive, PikPak WebDAV writing
+- Added lightning disk storage support [#234](https://github.com/Xhofe/alist/discussions/234)
+- Use local sorting for storage that does not support sorting
+- GoogleDrive storage increase preview image
+- S3 storage protocol support [#211](https://github.com/Xhofe/alist/discussions/211)
+- Custom cache time
+- WebDAV storage support
+- Support artplayer on mobile
+- Video list playback (can be switched automatically)
+- File packaging zip download
+- Add right-click menu, support multiple selection
+- Replace markdown components to solve some preview issues [#185](https://github.com/Xhofe/alist/issues/185)
+- Use the preview image of react-viewer navigation bar [#212](https://github.com/Xhofe/alist/issues/212)
+- Optimize path component style
+- Support web page upload files (you can set the directory to allow visitors to upload)
+
 ### v2.0.3
 - Modify pdf preview to pdfjs
 - For music covers with preview images, display as preview images

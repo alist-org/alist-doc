@@ -27,6 +27,9 @@ A file list program that supports multiple storage, powered by gin and React. En
 - [x] [Alist](https://github.com/Xhofe/alist)
 - [x] FTP
 - [x] [PikPak](https://www.mypikpak.com/)
+- [x] [shandian](https://shandianpan.com/)
+- [x] [S3](https://aws.amazon.com/cn/s3/)
+- [x] WebDAV
 
 ### WebDav Support
 
@@ -34,14 +37,17 @@ A file list program that supports multiple storage, powered by gin and React. En
 | ----------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
 | Native      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | AliDirve    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| Onedrive    |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| Onedrive    |  ✅  |    ✅    |  ✅  |   ✅   |  ✅  |  ✅  |   ✅   |
 | 189Cloud    |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
-| GoogleDrive |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
+| GoogleDrive |  ✅  |    ✅    |  ✅  |   ✅   |  ✅  |  ❌  |   ✅   |
 | 123pan      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ❌   |
 | lanzou      |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
 | Alist       |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
 | FTP         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| PikPak      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
+| PikPak      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| shandian | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| S3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| WebDAV | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### Discussion
 
