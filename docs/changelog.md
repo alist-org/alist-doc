@@ -6,6 +6,12 @@ sidebar_position: 8
 
 ### v2.0.4
 
+> #### v2.0.4-fix2
+> - markdown 图片显示问题
+> - 修复alist存储的错误
+> - 暗色时上传组件的背景颜色
+> - 自定义Home emoji
+> - 修复web上传时获取到错误的 content-type
 > #### v2.0.4-fix
 > - 修复是否可以上传的判读错误
 

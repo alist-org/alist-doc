@@ -6,6 +6,12 @@ sidebar_position: 8
 
 ### v2.0.4
 
+> #### v2.0.4-fix2
+> - Markdown image display problem
+> - Fix the error of alist storage
+> - The background color of the uploaded component when it is dark
+> - Customize Home emoji
+> - Fixed getting wrong content-type when uploading web
 > #### v2.0.4-fix
 > - Fix the interpretation error of whether it can be uploaded
 
