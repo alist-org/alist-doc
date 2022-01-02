@@ -14,7 +14,7 @@ const config = {
     },
   ],
   tagline: "A file list program that supports multiple storage.",
-  url: "https://nn.ci",
+  url: "https://alist-doc.nn.ci",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
