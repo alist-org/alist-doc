@@ -9,8 +9,6 @@ It may be that the prevention and control has been triggered. After changing the
 Due to referrer restrictions, mobile tokens must be used
 ### Can't play the video?
 Check if the encoding is not supported. Generally, browsers do not support encoded video such as h.265 (hevc), and encoded audio such as ac3. Safari does not support more. It is recommended to use software to play.
-### Get the transfer link?
-After allowing the transfer, copy the corresponding file and change the /d to /p.
 ### Where are the front-end files?
 To facilitate the installation, the front-end file and the program are packaged together. If you need to modify it, please modify and compile by yourself according to run from the source code or fill in the custom style/script field.
 ### What should I do if I forgot my password?

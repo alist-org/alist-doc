@@ -9,13 +9,14 @@ sidebar_position: 1
 ### index（索引）
 当有多个账号时，用于排序，越小越靠前
 ### proxy（代理）
-是否开启代理，开启之后，所有流量都会走服务器，包括WebDAV请求。
+是否开启代理，开启之后，此账号的所有下载流量走代理服务器，包括WebDAV请求。
 
 ### WebDAV proxy
 
-开启之后，只有WebDAV请求的流量走服务器。
+开启之后，只有WebDAV请求的流量走代理服务器。
 
 ### down_proxy_url（下载代理地址）
+不填此字段开启代理时，默认使用本机进行中转。
 可以使用`cloudflare workers`进行代理，此处填写`cloudflare workers`地址即可。
 workers代码可以在https://github.com/Xhofe/alist/blob/v2/alist-proxy.js 找到。其中：
 
@@ -34,4 +35,4 @@ const sign = md5(`alist-${TOKEN}-${name}`).slice(8, 24)
 
 ### api_proxy_url（API代理地址）
 
-同down_proxy_url，专门为GoogleDrive和PikPak等国内无法直接访问的存储准备。
+同down_proxy_url，请求API使用的代理，专门为GoogleDrive和PikPak等国内无法直接访问的存储准备。
