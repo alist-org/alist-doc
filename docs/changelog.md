@@ -4,6 +4,22 @@ sidebar_position: 15
 
 # 更新日志
 
+### v2.0.5
+
+- 修复复制直链时使用token或密码的判断
+- 解决react-viewer带来的空div
+- 增加分页支持（可选加载全部、加载更多、自动加载更多、分页）[#257](https://github.com/Xhofe/alist/discussions/257)
+- 字幕添加响应式
+- 修复路径导航栏名称重复时失效的问题
+- epub、flv预览支持
+- 增加删除确认
+- 修复发生文件修改时的指定缓存清理
+- 增加123盘和天翼云盘上传
+- 新的driver：Teambition和Mediatrack
+- 修改配置文件结构时更新配置文件
+- 修复使用其他服务器代理本地文件时的bug
+- 修复重复保存天翼云盘时出现的get empty page
+
 ### v2.0.4
 
 > #### v2.0.4-fix2
