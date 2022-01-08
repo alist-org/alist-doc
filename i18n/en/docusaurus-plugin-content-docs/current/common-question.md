@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# common question
+# Common question
 ### When adding a Tianyi cloud disk: the device ID does not exist, and a secondary device verification is required
 It may be that the prevention and control has been triggered. After changing the password, add it again.
 ### Alibaba Cloud Disk video cannot be played, and the download shows InvalidArgument?
