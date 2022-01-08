@@ -30,24 +30,8 @@ A file list program that supports multiple storage, powered by gin and React. En
 - [x] [shandian](https://shandianpan.com/)
 - [x] [S3](https://aws.amazon.com/cn/s3/)
 - [x] WebDAV
-
-### WebDav Support
-
-| Storage strategy | list | download | mkdir | rename | move | copy | upload |
-| ---------------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
-| Native           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| AliDirve         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| Onedrive         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| 189Cloud         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
-| GoogleDrive      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| 123pan           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ❌   |
-| lanzou           |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
-| Alist            |  ✅  |    ✅    |  ❌   |   ❌   |  ❌  |  ❌  |   ❌   |
-| FTP              |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| PikPak           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| shandian         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
-| S3               |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| WebDAV           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+- [x] Teambition（[China](https://www.teambition.com/)，[International](https://us.teambition.com/)）
+- [x] [mediatrack](https://www.mediatrack.cn/)
 
 ### Discussion
 

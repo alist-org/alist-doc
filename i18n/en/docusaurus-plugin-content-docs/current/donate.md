@@ -33,5 +33,6 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - *成
 - V*X
 - 吃柠檬吧
+- K*C
 
 If there is any omission, please contact to add it.
