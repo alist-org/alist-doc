@@ -8,12 +8,12 @@ sidebar_position: 1
 [![GitHub Discussions](https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936&style=flat-square)](https://github.com/Xhofe/alist/discussions)
 [![](https://img.shields.io/github/workflow/status/Xhofe/alist/build?style=flat-square)](https://github.com/Xhofe/alist/actions?query=workflow%3ABuild)
 [![](https://img.shields.io/github/downloads/Xhofe/alist/total?style=flat-square&color=%239F7AEA)](https://github.com/Xhofe/alist/releases)
-[![](https://data.jsdelivr.com/v1/package/gh/Xhofe/alist-web/badge)](https://www.jsdelivr.com/package/gh/Xhofe/alist-web)
+[![](https://data.jsdelivr.com/v1/package/gh/Xhofe/alist-web/badge)](https://img.shields.io/jsdelivr/gh/hm/Xhofe/alist-web?style=flat-square)
 [![](https://img.shields.io/badge/%24-donate-ff69b4.svg?style=flat-square)](https://pay.xhofe.top)
 
 ### 是什么？
 
-一款支持多种存储的目录文件列表程序，支持 web 浏览与 webdav（只读），后端基于`gin`，前端使用`react`。
+一款支持多种存储的目录文件列表程序，支持 web 浏览与 webdav，后端基于`gin`，前端使用`react`。
 
 ## 讨论
 
