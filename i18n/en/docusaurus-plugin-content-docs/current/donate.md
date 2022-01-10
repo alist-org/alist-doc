@@ -34,5 +34,7 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - V*X
 - 吃柠檬吧
 - K*C
+- 大兵小匠
+- LinKคิดถึง
 
 If there is any omission, please contact to add it.
