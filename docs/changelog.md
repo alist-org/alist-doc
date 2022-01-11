@@ -15,10 +15,12 @@ sidebar_position: 15
 - 增加删除确认
 - 修复发生文件修改时的指定缓存清理
 - 增加123盘和天翼云盘上传
-- 新的driver：Teambition和Mediatrack
+- 新的driver：Teambition、Mediatrack和和彩云
 - 修改配置文件结构时更新配置文件
 - 修复使用其他服务器代理本地文件时的bug
 - 修复重复保存天翼云盘时出现的get empty page
+- 网页端多文件上传和删除
+- 移除后台管理的自定义头部和body内容
 
 ### v2.0.4
 

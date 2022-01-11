@@ -4,6 +4,24 @@ sidebar_position: 15
 
 # Changelog
 
+### v2.0.5
+
+- Fixed the judgment of using token or password when copying the straight chain
+- Solve the empty div brought by react-viewer
+- Added pagination support (optional load all, load more, autoload more, pagination) [#257](https://github.com/Xhofe/alist/discussions/257)
+- Subtitles added responsive
+- Fixed the problem that the name of the path navigation bar is invalid when the name is repeated
+- epub, flv preview support
+- Add delete confirmation
+- Fixed specified cache cleanup when file modification occurs
+- Added 123 disks and Tianyi cloud disk upload
+- New drivers: Teambition, Mediatrack and 139Yun
+- Update config file when modifying config file structure
+- Fixed bug when proxying local files with other servers
+- Fix the get empty page that appears when saving Tianyi cloud disk repeatedly
+- Upload and delete multiple files on the web
+- Remove custom header and body content managed in the background
+
 ### v2.0.4
 
 > #### v2.0.4-fix2
