@@ -17,13 +17,20 @@ sidebar_position: 1
 
 ### down_proxy_url（下载代理地址）
 不填此字段开启代理时，默认使用本机进行中转。
+
+#### cloudflare workers
 可以使用`cloudflare workers`进行代理，此处填写`cloudflare workers`地址即可。
-workers代码可以在https://github.com/Xhofe/alist/blob/v2/alist-proxy.js 找到。其中：
+workers代码可以在https://github.com/alist-org/alist-proxy/blob/main/alist-proxy.js 找到。其中：
 
 - HOST: 你的Alist地址
 - TOKEN：参见[Alist](./alist.md#token)部分的Token
 
-你也可以不使用`cloudflare workers`而是自己开发代理程序，一般的步骤为：
+#### 通用二进制
+在https://github.com/alist-org/alist-proxy/releases 下载程序
+
+`./alist-proxy -help`查看使用方法。
+
+你也可以自己开发代理程序，一般的步骤为：
 - 下载时会请求`PROXY_URL/path?sign=sign_value`
 - 在代理程序中验证sign，sign的计算方式为:
 ```js

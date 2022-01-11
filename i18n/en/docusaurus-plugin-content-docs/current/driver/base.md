@@ -17,13 +17,20 @@ After opening, only the traffic requested by WebDAV goes to the proxy server.
 
 ### down_proxy_url (download proxy address)
 When the proxy is turned on without filling in this field, the local machine will be used for transfer by default.
-You can use `cloudflare workers` for proxy, fill in the address of `cloudflare workers` here.
-The code of workers can be found at https://github.com/Xhofe/alist/blob/v2/alist-proxy.js. in:
+
+#### cloudflare workers
+You can use `cloudflare workers` for proxy, just fill in the `cloudflare workers` address here.
+The workers code can be found at https://github.com/alist-org/alist-proxy/blob/main/alist-proxy.js. in:
 
 - HOST: your Alist address
-- TOKEN: See the Token in the [Alist](./alist.md#token) section
+- TOKEN: see Token in the [Alist](./alist.md#token) section
 
-You can also develop your own agent instead of using `cloudflare workers`. The general steps are:
+#### Universal Binary
+Download the program at https://github.com/alist-org/alist-proxy/releases
+
+`./alist-proxy -help` to see how to use it.
+
+You can also develop your own agent program, the general steps are:
 
 - When downloading, it will request `PROXY_URL/path?sign=sign_value`
 - Verify sign in the agent program, the calculation method of sign is:
