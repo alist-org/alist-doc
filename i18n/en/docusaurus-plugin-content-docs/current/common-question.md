@@ -24,6 +24,8 @@ Is webdav for the browser?
 ### How to update?
 Except for the incompatible version marked in the [changelog](./changelog.md), you can directly replace the binary file to update.
 For docker update, please refer to: https://store.heytapimage.com/cdo-portal/feedback/202112/12/1e64956f796e95070bed2d7f2c61bdd5.png
+### Onedrive: The property xx is not supported for OrderBy?
+Note that in OneDrive for Business and SharePoint Server 2016, the orderby query string only works with name and url.
 
 :::tip
 If your problem has not been resolved after reading the document, please give priority to [ask/discuss in Discussions](https://github.com/Xhofe/alist/discussions/new) or [issue](https://github .com/Xhofe/alist/issues/new/choose).

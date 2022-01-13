@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Alist supports all storage WebDav(some readonly now), which is a standard for accessing files on.
+        Alist supports all storage WebDav, which is a standard for accessing files on.
       </>
     ),
   },

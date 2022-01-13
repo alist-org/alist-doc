@@ -10,6 +10,7 @@ Unique identifier, which is also the path displayed when there are multiple acco
 When there are multiple accounts, it is used for sorting, the smaller the higher
 ### proxy
 Whether to enable the proxy, after enabling, all download traffic of this account goes to the proxy server, including WebDAV requests.
+If there is no this option, it means that the storage can only be changed through the proxy, that is, the server is relayed.
 
 ### WebDAV proxy
 

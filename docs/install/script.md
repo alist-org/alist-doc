@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 一键脚本
 
-仅支持Linux-x86_64平台。
+仅支持Linux-x86_64/aarch64平台。
 
 ### 安装
 ```bash
