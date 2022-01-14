@@ -6,9 +6,11 @@ sidebar_position: 6
 
 The default password is `alist`.
 
-### Railway(Recommend)
+### Railway
 
 https://github.com/alist-org/alist-railway
+
+Easy to use but easy to violate ToS too.
 
 ### Heroku
 
