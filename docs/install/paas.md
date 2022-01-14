@@ -14,4 +14,4 @@ Easy to use but easy to violate ToS too.
 
 ### Heroku
 
-https://github.com/sbwml/alist-heroku
+https://github.com/alist-org/alist-heroku
