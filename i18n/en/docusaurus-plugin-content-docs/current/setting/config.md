@@ -14,9 +14,9 @@ Listening address
 
 Listening port
 
-### local
+### assets
 
-Whether to use the local js file, the default is to use the cdn of jsdeliver
+The static resources used, optional local/zhimg/jsdelivr, the default is zhimg (zhihu's unpkg mirror in China, the fastest)
 
 ### database
 

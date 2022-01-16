@@ -36,5 +36,8 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - K*C
 - 大兵小匠
 - LinKคิดถึง
+- 领*.
+- **达
+- 乱乱想 ╮
 
 If there is any omission, please contact to add it.

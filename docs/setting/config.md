@@ -14,9 +14,9 @@ config.json
 
 监听端口
 
-### local
+### assets
 
-是否使用本地js文件，默认为使用jsdeliver的cdn
+使用的静态资源，可选local/zhimg/jsdelivr，默认为zhimg（知乎在国内的unpkg镜像，速度最快）
 
 ### database
 
