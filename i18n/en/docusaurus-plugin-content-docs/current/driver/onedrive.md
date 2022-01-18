@@ -18,7 +18,7 @@ First open https://tool.nn.ci/onedrive/request
 ### Get refresh token
 Fill in the client_id and client_secret obtained in the previous step into the https://tool.nn.ci/onedrive/request page, click Get Refresh Token, you can get the refresh token
 
-### Get Sharepoint site_id (not tested)
+### Get Sharepoint site_id
 If you need to mount Sharepoint, after completing the previous step, an input site address will appear on the interface that displays the refresh token. After entering the site address, click Get site_id.
 ### Add account
 Fill in the values ​​obtained in the above process one by one.

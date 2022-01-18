@@ -18,7 +18,7 @@ sidebar_position: 4
 ### 获取刷新令牌
 将上一步骤中获得的client_id和client_secret填入https://tool.nn.ci/onedrive/request 这个页面，点击获取刷新令牌，就可以得到刷新令牌了
 
-### 获取Sharepoint site_id（未测试）
+### 获取Sharepoint site_id
 如果需要挂载Sharepoint，完成上一步后，在显示刷新令牌的界面会出现一个输入站点地址，输入站点地址后点击获取site_id即可。
 ### 添加账号
 将上述过程中获取得到的值依次填入即可。
