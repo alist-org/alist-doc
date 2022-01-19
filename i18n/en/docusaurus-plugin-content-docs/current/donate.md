@@ -41,5 +41,7 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - 乱乱想 ╮
 - 沉吟
 - *、
+- *卓
+- 江小兑
 
 If there is any omission, please contact to add it.
