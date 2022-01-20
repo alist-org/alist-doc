@@ -12,6 +12,14 @@ When there are multiple accounts, it is used for sorting, the smaller the higher
 Whether to enable the proxy, after enabling, all download traffic of this account goes to the proxy server, except WebDAV requests.
 If there is no this option, it means that the storage can only be changed through the proxy, that is, the server is relayed.
 
+> Storage points can be requested directly (with proxy switch) and cannot be requested directly (without proxy switch)
+> Those that cannot be requested directly will go directly to the server where the program is located (if you do not fill in down_proxy_url)
+> Can be requested directly:
+> - proxy off, webdav_proxy off: file download requests do not go to the server at all
+> - proxy on, webdav_proxy off: the preview on the web page and the direct link download all go to the server, but the webdav download does not go to the server
+> - proxy off, webdav_proxy on: the preview on the web page, the direct link download does not go to the server, but the webdav download goes to the server
+> - proxy on, webdav_proxy on: web page preview, direct link download and webdav download all go to the server.
+
 ### WebDAV proxy
 
 After opening, only the traffic requested by WebDAV goes to the proxy server.

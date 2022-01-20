@@ -12,6 +12,14 @@ sidebar_position: 1
 是否开启代理，开启之后，此账号的所有下载流量走代理服务器，除了WebDAV下载。
 如果没有此选项，则说明改存储只能走代理，即由服务器中转。
 
+> 存储分可以直接请求（有proxy开关）和不可以直接请求的（无proxy开关）
+> 不可以直接请求的会直接走程序所在服务器（如果你没有填down_proxy_url）
+> 可以直接请求的：
+> - proxy关、webdav_proxy关：文件下载请求完全不走服务器
+> - proxy开、webdav_proxy关：网页上的预览、直链下载都走服务器，但webdav下载不走服务器
+> - proxy关、webdav_proxy开：网页上的预览、直链下载不走服务器，但webdav下载走服务器
+> - proxy开、webdav_proxy开：网页预览、直链下载和webdav下载都走服务器。
+
 ### WebDAV proxy
 
 开启之后，只有WebDAV请求的流量走代理服务器。

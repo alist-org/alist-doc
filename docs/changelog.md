@@ -3,6 +3,22 @@ sidebar_position: 15
 ---
 
 # 更新日志
+### v2.0.7
+- 修复和彩云上传等操作用户不存在的错误 [#365](https://github.com/Xhofe/alist/issues/365) [#373](https://github.com/Xhofe/alist/issues/373)
+- 修复使用本地代理中转时出现的memory leak
+- 修复GoogleDrive无法加载Readme.md等文本文件 [#379](https://github.com/Xhofe/alist/issues/379)
+- 适配蓝奏云不同域名
+- 隐藏s3占位空文件
+- 禁止MediaTrack新建同名文件夹
+- 支持所有存储将文件夹提取至最前面
+- web端新建文件夹、重命名和移动
+- 为postgres 增加sslmode配置
+- 修复webdav加密时文件无法获取
+- 增加musl-libc的prebuilt
+- 修复123云盘的移动
+- 修复文件未加载完时路径改变造成的不匹配
+- 显示上传速度和剩余时间
+- 修复密码为空时管理员登录无法预览
 
 ### v2.0.6
 - 修改一些错别字 [#348](https://github.com/Xhofe/alist/discussions/348)
