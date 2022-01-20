@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::tip
 
-Please be aware: v2.0.1 and later, the administrator does not need a password after logging in.
+Please be aware: v2.0.1 and later, the administrator will ignore encryption after logging in.
 
 :::
 
