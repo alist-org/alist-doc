@@ -26,6 +26,8 @@ Except for the incompatible version marked in the [changelog](./changelog.md), y
 For docker update, please refer to: https://store.heytapimage.com/cdo-portal/feedback/202112/12/1e64956f796e95070bed2d7f2c61bdd5.png
 ### Onedrive: The property xx is not supported for OrderBy?
 Note that in OneDrive for Business and SharePoint Server 2016, the orderby query string only works with name and url.
+### About browser support
+Please search by yourself: `vite`, `chakra-ui`, `react`, etc. [dependencies used by `alist-web`](https://github.com/alist-org/alist-web/blob/v2 /package.json), the browser support of this program is determined by the upper-level dependencies.
 
 :::tip
 If your problem has not been resolved after reading the document, please give priority to [ask/discuss in Discussions](https://github.com/Xhofe/alist/discussions/new) or [issue](https://github .com/Xhofe/alist/issues/new/choose).
