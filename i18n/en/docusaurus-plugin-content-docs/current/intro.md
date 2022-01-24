@@ -46,4 +46,4 @@ Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) 
 
 ### License
 
-The `AList` is open-source software licensed under the MIT license.
+The `AList` is open-source software licensed under the AGPL-3.0 license.
