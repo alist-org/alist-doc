@@ -33,6 +33,6 @@ sidebar_position: 8
 | shandian         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
 | S3               |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | WebDAV           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| Teambition       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ❌   |
+| Teambition       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | Mediatrack       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | 139yun           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |

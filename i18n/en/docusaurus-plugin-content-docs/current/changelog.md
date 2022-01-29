@@ -3,6 +3,19 @@ sidebar_position: 15
 ---
 
 # Changelog
+### v2.0.8
+- Add copy on web page
+- Fix folder icon issue
+- Added loading for some operations
+- Fix Tianyi cloud disk sorting problem (using local sorting) [#407](https://github.com/Xhofe/alist/issues/407)
+- Teambition upload
+- Added OCR to identify Tianyi cloud disk verification code
+- Fixed a security vulnerability in local storage, please update if using local storage
+- Use tempFile instead of TeeReader when partially storing uploaded files, reducing memory usage and avoiding OOM
+- Fix 123 cloud disk upload bug [#449](https://github.com/Xhofe/alist/issues/449)
+- Tianyi cloud disk chunk upload [#358](https://github.com/Xhofe/alist/issues/358)
+- Removed Text function that could cause OOM
+
 ### v2.0.7
 - Fix bugs that users do not exist in operations such as uploading to Caiyun [#365](https://github.com/Xhofe/alist/issues/365) [#373](https://github.com/Xhofe/alist/ issues/373)
 - Fix the memory leak when using the local proxy to transfer
