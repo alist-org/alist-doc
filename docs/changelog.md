@@ -4,6 +4,9 @@ sidebar_position: 15
 
 # 更新日志
 ### v2.0.8
+> #### v2.0.8-fix
+> - 修复webdav
+
 - 网页端增加复制
 - 修复文件夹icon的问题
 - 为一些操作增加loading
