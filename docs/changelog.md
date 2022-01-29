@@ -6,6 +6,7 @@ sidebar_position: 15
 ### v2.0.8
 > #### v2.0.8-fix
 > - 修复webdav
+> - 修复ftp conn没有保存
 
 - 网页端增加复制
 - 修复文件夹icon的问题

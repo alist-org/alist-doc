@@ -6,6 +6,7 @@ sidebar_position: 15
 ### v2.0.8
 > #### v2.0.8-fix
 > - fix webdav
+> - fix ftp conn not store
 
 - Add copy on web page
 - Fix folder icon issue
