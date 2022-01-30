@@ -4,7 +4,10 @@ sidebar_position: 15
 
 # 更新日志
 ### v2.0.8
-> #### v2.0.8-fix
+:::caution
+zhimg的cdn有问题，请切换至jsdelivr或local，参见[assets](./setting/config.md)
+:::
+> #### fix
 > - 修复webdav
 > - 修复ftp conn没有保存
 

@@ -4,7 +4,10 @@ sidebar_position: 15
 
 # Changelog
 ### v2.0.8
-> #### v2.0.8-fix
+:::caution
+There is a problem with the cdn of zhimg, please switch to jsdelivr or local, see [assets](./setting/config.md)
+:::
+> #### v2.0.8
 > - fix webdav
 > - fix ftp conn not store
 
