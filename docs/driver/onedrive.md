@@ -4,6 +4,12 @@ sidebar_position: 4
 
 # OneDrive
 
+### 视频教程
+
+<iframe src="//player.bilibili.com/player.html?aid=636185928&bvid=BV1Rb4y1E7NV&cid=499811348&page=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+### First
+
 首先打开https://tool.nn.ci/onedrive/request
 
 ### 创建应用
