@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ### 视频教程
 
-<iframe src="//player.bilibili.com/player.html?aid=636185928&bvid=BV1Rb4y1E7NV&cid=499811348&page=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=636185928&bvid=BV1Rb4y1E7NV&cid=499811348&page=1&high_quality=1&danmaku=1&as_wide=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### First
 
