@@ -7,7 +7,7 @@ sidebar_position: 4
 First open https://tool.nn.ci/onedrive/request
 
 ### Create an application
-> If you use the international version of OneDrive, you can also choose to skip this step and use the default client provided.
+<!-- > If you use the international version of OneDrive, you can also choose to skip this step and use the default client provided. -->
 - On the page that opens, select the region and click Create Application
 - After logging in, select `Register Application`, enter `Name`, and select `Accounts and Individuals in Any Organization Directory` (note that you don't look at the location selection but the text here. Some people may be the middle option, don't select a single Tenant or other options, otherwise it will cause problems when logging in), enter the redirect URL as https://tool.nn.ci/onedrive/callback, `register`, and then you can get client_id
   ![client_id](https://store.heytapimage.com/cdo-portal/feedback/202111/24/998aa05659a10e87b3f2161d844263f8.png)
