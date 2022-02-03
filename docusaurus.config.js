@@ -19,7 +19,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon:
-    "https://store.heytapimage.com/cdo-portal/feedback/202112/05/1542f45f86b8609495b69c5380753135.png",
+    "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
   organizationName: "Xhofe", // Usually your GitHub org/user name.
   projectName: "alist", // Usually your repo name.
 
@@ -52,8 +52,8 @@ const config = {
       navbar: {
         title: "Alist Doc",
         logo: {
-          alt: "Alist Doc Logo",
-          src: "https://store.heytapimage.com/cdo-portal/feedback/202112/05/1542f45f86b8609495b69c5380753135.png",
+          alt: "Alist Logo",
+          src: "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
         },
         items: [
           {
