@@ -16,7 +16,7 @@ config.json
 
 ### assets
 
-使用的静态资源，可选local/zhimg/jsdelivr，默认为zhimg（知乎在国内的unpkg镜像，速度最快）
+使用的静态资源，可选local/zhimg/unpkg，默认为jsdelivr.
 
 ### database
 

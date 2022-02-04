@@ -16,7 +16,7 @@ Listening port
 
 ### assets
 
-The static resources used, optional local/zhimg/jsdelivr, the default is zhimg (zhihu's unpkg mirror in China, the fastest)
+The static resources used, optional local/unpkg/jsdelivr, the default is jsdelivr
 
 ### database
 
