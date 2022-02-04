@@ -13,6 +13,8 @@ location / {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_redirect off;
     proxy_pass http://127.0.0.1:5244;
+    # 上传的最大文件尺寸
+    client_max_body_size 20000m;
 }
 ```
 :::caution
