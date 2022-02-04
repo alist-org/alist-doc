@@ -3,6 +3,18 @@ sidebar_position: 15
 ---
 
 # Changelog
+### v2.0.9
+- GBK encoding support for text files [#469](https://github.com/Xhofe/alist/discussions/469)
+- Cancel to get whether to log in when the management password is empty
+- Fix FTP connection disconnection problem [#462](https://github.com/Xhofe/alist/issues/462)
+- S3 object storage custom acceleration domain name [#362](https://github.com/Xhofe/alist/discussions/362)
+- Yandex.Disk storage support [#443](https://github.com/Xhofe/alist/discussions/443)
+-Fixed the download problem of Lansuo Cloud (adapted to the changes of the blue-sound cloud download page)
+- Baidu network disk storage support
+- The issue of uploading empty files in webdav under Windows [#376](https://github.com/Xhofe/alist/issues/376)
+- Random initial admin password [#467](https://github.com/Xhofe/alist/discussions/467)
+- Modify the default logo
+  
 ### v2.0.8
 :::caution
 There is a problem with the cdn of zhimg, please switch to jsdelivr or local, see [assets](./setting/config.md)
