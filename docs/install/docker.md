@@ -4,7 +4,10 @@ sidebar_position: 5
 
 # 使用Docker
 
-默认密码为 `alist`
+初始密码请查看日志输出：
+```bash
+docker logs alist
+```
 
 ### 稳定版
 ```bash

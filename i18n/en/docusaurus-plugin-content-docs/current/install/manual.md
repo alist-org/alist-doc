@@ -27,7 +27,7 @@ chmod +x alist-xxxx
   </div>
 </details>
 
-When you see the output of `start server @ 0.0.0.0:5244` and no error is reported, it means that the operation is successful. The program listens to port 5244 by default. Now you can see the login page by opening `http://ip:5244`. The default password is `alist`, and the webdav path is `/dav`, Please see [Introduction](../webdav.md) for the level of support.
+When you see the output of `start server @ 0.0.0.0:5244` and no error is reported afterwards, it means that the operation is successful. The initial password will be output when running for the first time. The program listens to port 5244 by default. Now open `http://ip:5244` You can see the login page, please see [WebDav](../webdav.md) for webdav.
 
 ### Daemon
 `vim /usr/lib/systemd/system/alist.service` add the following content, where path_alist is the path where alist is located

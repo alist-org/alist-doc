@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # PaaS
 
-The default password is `alist`.
+The initial password refer to logs.
 
 ### Railway
 

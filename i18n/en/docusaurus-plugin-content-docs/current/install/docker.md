@@ -4,7 +4,10 @@ sidebar_position: 5
 
 # Use Docker
 
-The default password is `alist`.
+See the log output for the initial password:
+```bash
+docker logs alist
+````
 
 ### stable version
 ```bash

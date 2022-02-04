@@ -36,3 +36,5 @@ sidebar_position: 8
 | Teambition       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | Mediatrack       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | 139yun           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| Yandex.Disk      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
+| Baidu Disk       |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
