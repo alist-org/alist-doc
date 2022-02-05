@@ -16,7 +16,7 @@ config.json
 
 ### assets
 
-使用的静态资源，可选local/zhimg/unpkg，默认为jsdelivr.
+使用的静态资源，可选local/jsdelivr/unpkg，默认为jsdelivr.
 
 ### database
 
