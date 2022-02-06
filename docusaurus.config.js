@@ -99,6 +99,10 @@ const config = {
                 href: "https://github.com/Xhofe/alist",
               },
               {
+                label: "Telegram Group",
+                href: "https://t.me/alist_chat",
+              },
+              {
                 label: "QQ Group",
                 href: "https://jq.qq.com/?_wv=1027&k=OVPJcv2b",
               },
