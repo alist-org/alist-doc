@@ -25,17 +25,17 @@ sidebar_position: 1
 开启之后，只有WebDAV请求的流量走代理服务器。
 
 ### down_proxy_url（下载代理地址）
-不填此字段开启代理时，默认使用本机进行中转。
+不填此字段开启代理时，默认使用本机进行中转。提供两种代理方法：
 
 #### cloudflare workers
 可以使用`cloudflare workers`进行代理，此处填写`cloudflare workers`地址即可。
 workers代码可以在https://github.com/alist-org/alist-proxy/blob/main/alist-proxy.js 找到。其中：
 
-- HOST: 你的Alist地址
-- TOKEN：参见[Alist](./alist.md#token)部分的Token
+- HOST: 你的Alist地址，必须添加协议头，且后面不能添加/。如`https://alist.nn.ci`；
+- TOKEN：参见[Alist](./alist.md#token)部分的Token。
 
 #### 通用二进制
-在https://github.com/alist-org/alist-proxy/releases 下载程序
+你也可以使用另外一台机器进行代理，在https://github.com/alist-org/alist-proxy/releases 下载程序
 
 `./alist-proxy -help`查看使用方法。
 

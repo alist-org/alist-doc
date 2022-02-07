@@ -25,17 +25,17 @@ If there is no this option, it means that the storage can only be changed throug
 After opening, only the traffic requested by WebDAV goes to the proxy server.
 
 ### down_proxy_url (download proxy address)
-When the proxy is turned on without filling in this field, the local machine will be used for transfer by default.
+When the proxy is turned on without filling in this field, the local machine will be used for transfer by default.Two proxy methods are provided:
 
 #### cloudflare workers
 You can use `cloudflare workers` for proxy, just fill in the `cloudflare workers` address here.
 The workers code can be found at https://github.com/alist-org/alist-proxy/blob/main/alist-proxy.js. in:
 
-- HOST: your Alist address
-- TOKEN: see Token in the [Alist](./alist.md#token) section
+- HOST: your Alist address, The protocol header must be added, and cannot be followed by /. Such as `https://alist.nn.ci`;
+- TOKEN: see Token in the [Alist](./alist.md#token) section.
 
 #### Universal Binary
-Download the program at https://github.com/alist-org/alist-proxy/releases
+You can also use another machine for proxying, download the program at https://github.com/alist-org/alist-proxy/releases
 
 `./alist-proxy -help` to see how to use it.
 
