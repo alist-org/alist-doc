@@ -7,6 +7,8 @@ sidebar_position: 5
 See the log output for the initial password:
 ```bash
 docker logs alist
+# or
+docker exec -it alist ./alist -password
 ````
 
 ### stable version

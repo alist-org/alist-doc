@@ -7,6 +7,8 @@ sidebar_position: 5
 初始密码请查看日志输出：
 ```bash
 docker logs alist
+# 或者
+docker exec -it alist ./alist -password
 ```
 
 ### 稳定版
