@@ -22,7 +22,7 @@ The configuration file under the data folder of the directory where the program 
 ### The webdav browser opens and displays Internal Server Error?
 Is webdav for the browser?
 ### How to update?
-Except for the incompatible version marked in the [changelog](./changelog.md), you can directly replace the binary file to update.
+Except for the incompatible version marked in the `changelog`, you can directly replace the binary file to update.
 For docker update, please refer to: https://store.heytapimage.com/cdo-portal/feedback/202112/12/1e64956f796e95070bed2d7f2c61bdd5.png
 ### Onedrive: The property xx is not supported for OrderBy?
 Note that in OneDrive for Business and SharePoint Server 2016, the orderby query string only works with name and url.

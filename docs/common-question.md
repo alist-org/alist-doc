@@ -22,7 +22,7 @@ sidebar_position: 10
 ### webdav浏览器打开显示Internal Server Error？
 webdav是给浏览器用的吗？
 ### 如何更新？
-除了在[更新日志](./changelog.md)中标注了与之前不兼容的版本外，皆可以直接替换二进制文件进行更新。
+除了在`更新日志`中标注了与之前不兼容的版本外，皆可以直接替换二进制文件进行更新。
 docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112/12/1e64956f796e95070bed2d7f2c61bdd5.png
 ### Onedrive: The property xx is not supported for OrderBy?
 在 OneDrive for Business 和 SharePoint Server 2016 中，orderby 查询字符串仅支持 name 和 url。
