@@ -35,6 +35,7 @@ A file list program that supports multiple storage, and supports web browsing an
 - [x] [139yun](https://yun.139.com/) (Personal, Family)
 - [x] [Yandex.Disk](https://disk.yandex.com/)
 - [x] [Baidu Disk](http://pan.baidu.com/)
+- [x] [Quark](https://pan.quark.cn/)
 
 ### Discussion
 

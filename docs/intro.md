@@ -39,6 +39,7 @@ sidebar_position: 1
 - [x] [和彩云](https://yun.139.com/) (个人云, 家庭云)
 - [x] [Yandex.Disk](https://disk.yandex.com/)
 - [x] [百度网盘](http://pan.baidu.com/)
+- [x] [夸克网盘](https://pan.quark.cn/)
 
 ### 演示
 
