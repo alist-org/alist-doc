@@ -15,8 +15,12 @@
     "message": "Add Account",
     "description": "The label for category 添加账号 in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.加密与隐藏": {
-    "message": "Encryption and Hiding",
-    "description": "The label for category 加密与隐藏 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.功能教程": {
+    "message": "Feature Tutorial",
+    "description": "The label for category 功能教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.更新日志": {
+    "message": "Changelog",
+    "description": "The label for category 更新日志 in sidebar tutorialSidebar"
   }
 }
