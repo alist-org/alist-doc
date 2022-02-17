@@ -13,7 +13,7 @@ Please note: v2.0.6 and later, the hidden function is invalid after the administ
 
 :::
 
-Add a record at the background meta information, fill in the path and the name of the file (folder) to be hidden in the path, where the path is the same as [path in encryption](./encrypt)
+Add a record at the background meta information, fill in the path and the name of the file (folder) to be hidden in the path, where the path is the same as [path in encryption](./encrypt.md)
 
 After filling in the path correctly, fill in the hide field, fill in the name of the file (folder) to be hidden, separated by , for example, to hide the README.md and index.tsx files under https://alist.nn.ci/ local storage, fill in:
 - path: `/local storage`
