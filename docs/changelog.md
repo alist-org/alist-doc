@@ -4,6 +4,37 @@ sidebar_position: 15
 
 # 更新日志
 ### v2.0.10
+:::info
+若更新后启动失败，报错`create temp dir error: mkdir : no such file or directory`，将配置文件中的`temp_dir`的值由空改为`data/temp`即可。即：
+```json
+{
+  "address": "0.0.0.0",
+  "port": 5244,
+  "assets": "",
+  "database": {
+    "type": "sqlite3",
+    "user": "",
+    "password": "",
+    "host": "",
+    "port": 0,
+    "name": "",
+    "table_prefix": "x_",
+    "db_file": "data/data.db",
+    "ssl_mode": "disable"
+  },
+  "scheme": {
+    "https": false,
+    "cert_file": "",
+    "key_file": ""
+  },
+  "cache": {
+    "expiration": 60,
+    "cleanup_interval": 120
+  },
+  "temp_dir": "data/temp" <---这里
+}
+```
+:::
 - 音乐播放列表排序与滚动 [#529](https://github.com/Xhofe/alist/discussions/529)
 - 前端支持通过正则表达式隐藏文件 [#464](https://github.com/Xhofe/alist/discussions/464)
 - 音乐播放记住音量 [#549](https://github.com/Xhofe/alist/issues/549)
