@@ -8,9 +8,13 @@ sidebar_position: 1
 唯一标识符，也是当有多个账号时展示的路径
 ### index（索引）
 当有多个账号时，用于排序，越小越靠前
-### proxy（代理）
-是否开启代理，开启之后，此账号的所有下载流量走代理服务器，除了WebDAV下载。
-如果没有此选项，则说明改存储只能走代理，即由服务器中转。
+### proxy（代理相关）
+一个有三个相关选项：
+- proxy：网页端和直链走不走中转
+- webdav_proxy：webdav文件下载走不走中转
+- webdav_direct：webdav直接由本机中转
+
+如果没有proxy和webdav_proxy选项，则说明只能走中转
 
 > 存储分可以直接请求（有proxy开关）和不可以直接请求的（无proxy开关）
 > 不可以直接请求的会直接走程序所在服务器（如果你没有填down_proxy_url）
@@ -19,10 +23,7 @@ sidebar_position: 1
 > - proxy开、webdav_proxy关：网页上的预览、直链下载都走服务器，但webdav下载不走服务器
 > - proxy关、webdav_proxy开：网页上的预览、直链下载不走服务器，但webdav下载走服务器
 > - proxy开、webdav_proxy开：网页预览、直链下载和webdav下载都走服务器。
-
-### WebDAV proxy
-
-开启之后，只有WebDAV请求的流量走代理服务器。
+> - webdav_direct: 如果打开此开关，则webdav文件直接由本机中转，且不经过302跳转。如果此项关闭且打开webdav_proxy，文件下载是可能会经过多次302跳转。
 
 ### down_proxy_url（下载代理地址）
 不填此字段开启代理时，默认使用本机进行中转。提供两种代理方法：

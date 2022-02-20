@@ -8,21 +8,22 @@ Mandatory fields for all accounts
 Unique identifier, which is also the path displayed when there are multiple accounts
 ### index
 When there are multiple accounts, it is used for sorting, the smaller the higher
-### proxy
-Whether to enable the proxy, after enabling, all download traffic of this account goes to the proxy server, except WebDAV requests.
-If there is no this option, it means that the storage can only be changed through the proxy, that is, the server is relayed.
+### proxy (proxy related)
+One has three related options:
+- proxy: whether the web terminal and the direct link can go through the transfer
+- webdav_proxy: webdav file download does not go through transfer
+- webdav_direct: webdav is directly relayed by this machine
+
+If there are no proxy and webdav_proxy options, it means that you can only go through transit
 
 > Storage points can be requested directly (with proxy switch) and cannot be requested directly (without proxy switch)
 > Those that cannot be requested directly will go directly to the server where the program is located (if you do not fill in down_proxy_url)
 > Can be requested directly:
 > - proxy off, webdav_proxy off: file download requests do not go to the server at all
-> - proxy on, webdav_proxy off: the preview on the web page and the direct link download all go to the server, but the webdav download does not go to the server
-> - proxy off, webdav_proxy on: the preview on the web page, the direct link download does not go to the server, but the webdav download goes to the server
+> - proxy on, webdav_proxy off: the preview on the webpage and the direct link download all go to the server, but the webdav download does not go to the server
+> - proxy off, webdav_proxy on: the preview on the webpage, the direct link download does not go to the server, but the webdav download goes to the server
 > - proxy on, webdav_proxy on: web page preview, direct link download and webdav download all go to the server.
-
-### WebDAV proxy
-
-After opening, only the traffic requested by WebDAV goes to the proxy server.
+> - webdav_direct: If this switch is turned on, the webdav file will be directly transferred by this machine without going through 302 jump. If this item is turned off and webdav_proxy is turned on, the file download may go through multiple 302 jumps.
 
 ### down_proxy_url (download proxy address)
 When the proxy is turned on without filling in this field, the local machine will be used for transfer by default.Two proxy methods are provided:
