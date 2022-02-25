@@ -18,8 +18,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon:
-    "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
+  favicon: "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
   organizationName: "Xhofe", // Usually your GitHub org/user name.
   projectName: "alist", // Usually your repo name.
 
@@ -128,6 +127,23 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: "OVMC52MT0O",
+
+        // Public API key: it is safe to commit it
+        apiKey: "1cd1abe2bf7e9081495d2ebc9f604a7d",
+
+        indexName: "alist-doc",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+      },
     }),
 
   i18n: {
@@ -137,19 +153,19 @@ const config = {
 
   plugins: [
     // ... Your other plugins.
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        language: ["en", "zh"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
-      },
-    ],
+    // [
+    //   require.resolve("@easyops-cn/docusaurus-search-local"),
+    //   {
+    //     // ... Your options.
+    //     // `hashed` is recommended as long-term-cache of index file is possible.
+    //     hashed: true,
+    //     // For Docs using Chinese, The `language` is recommended to set to:
+    //     // ```
+    //     language: ["en", "zh"],
+    //     // ```
+    //     // When applying `zh` in language, please install `nodejieba` in your project.
+    //   },
+    // ],
   ],
 };
 
