@@ -10,5 +10,7 @@ sidebar_position: 3
 启用后，如果当前文件夹未设置密码，会递归检查父文件夹是否有密码，直至检查到第一个密码或到根目录停止。
 ### check down link
 用于加密直链，开启后直链会携带一个名为pw或sign（管理员）的query参数
+### d_proxy types
+单独的文件类型只走代理
 ### ocr api
 用于识别验证码

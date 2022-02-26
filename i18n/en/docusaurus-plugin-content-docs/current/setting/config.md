@@ -16,7 +16,35 @@ Listening port
 
 ### assets
 
-The static resources used, optional local/unpkg/jsdelivr, the default is jsdelivr
+The static resource location used. This is dynamic and changeable. Existing static resources are hosted on both npm and GitHub, and their locations are:
+
+- https://www.npmjs.com/package/alist-web
+- https://github.com/alist-org/assets
+
+So you can use any npm or github cdn as the path. By default, Ele.me's unpkg cdn (Alibaba cloud cdn) is used by default: https://npm.elemecdn.com/alist-web@$version/dist/ , `$version` will be automatically replaced by the front-end in the program release version. Here are some other available assets:
+
+#### npm
+
+- `jsdelivr npm`: https://cdn.jsdelivr.net/npm/alist-web@$version/dist/
+- `unpkg npm`: https://unpkg.com/alist-web@$version/dist/
+- `pigax jsdelivr npm (Tencent Cloud cdn)`: https://u.pigax.cn/npm/alist-web@$version/dist/
+- `pigax unpkg npm (Tencent Cloud cdn)`: https://unpkg.pigax.cn/alist-web@$version/dist/
+- `tianli jsdelivr npm (Tencent Cloud cdn)`: https://cdn1.tianli0.top/npm/alist-web@$version/dist/
+
+#### GitHub
+
+- `jsdelivr github`: https://cdn.jsdelivr.net/gh/alist-org/assets@$version/dist/
+- `pigax jsdelivr github (Tencent cloud cdn)`: https://u.pigax.cn/gh/alist-org/assets@$version/dist/
+- `tianli jsdelivr github (Tencent cloud cdn)`: https://cdn1.tianli0.top/gh/alist-org/assets@$version/dist/
+
+#### local
+
+- `local`: /
+
+#### customize
+Two methods:
+- Reverse jsdelivr, and then replace the host in jsdelivr's npm or github's cdn with your own
+- Download the compiled file at https://github.com/alist-org/assets/tags and put it in your space, and then fill in the link to the location where you store the assets (to the dist/ level)
 
 ### database
 
