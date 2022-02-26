@@ -51,5 +51,8 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - **杨
 - 小清新
 - 矿神spk
+- *香
+- *乐
+- *坤
 
 If there is any omission, please contact to add it.
