@@ -5,7 +5,7 @@ sidebar_position: 10
 # Common question
 ### When adding a Tianyi cloud disk: the device ID does not exist, and a secondary device verification is required
 It may be that the prevention and control has been triggered. After changing the password, add it again.
-### Alibaba Cloud Disk video cannot be played, and the download shows InvalidArgument?
+### Aliyundrive video cannot be played, and the download shows InvalidArgument?
 Due to referrer restrictions, mobile tokens must be used
 ### Can't play the video?
 Check if the encoding is not supported. Generally, browsers do not support encoded video such as h.265 (hevc), and encoded audio such as ac3. Safari does not support more. It is recommended to use software to play.
@@ -16,7 +16,7 @@ Command line ./alist-xxxx -password to view.(Where xxxx refers to the names corr
 ### Custom styles/scripts don’t take effect?
 Are the front and rear ends separated? The custom part is the back-end processing and only works when it is not separated.
 ### The uploaded file is not displayed/the deleted file is still there/does the modification of the root directory take effect?
-The program cache is automatically invalidated in one hour, and the cache can be manually cleared in the upper right corner of the background.
+The program cache will automatically expire within an hour. After logging in in the background, return to the list, and then right-click on the directory you changed to refresh. **Not recommended** Clear all caches.
 ### How to modify the listening port
 The configuration file under the data folder of the directory where the program is located: `config.json`, just modify the port value.
 ### The webdav browser opens and displays Internal Server Error?
