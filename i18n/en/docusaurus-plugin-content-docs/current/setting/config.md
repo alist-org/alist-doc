@@ -44,7 +44,7 @@ So you can use any npm or github cdn as the path. By default, Ele.me's unpkg cdn
 #### customize
 Two methods:
 - Reverse jsdelivr, and then replace the host in jsdelivr's npm or github's cdn with your own
-- Download the compiled file at https://github.com/alist-org/assets/tags and put it in your space, and then fill in the link to the location where you store the assets (to the dist/ level)
+- Download the compiled file at https://github.com/alist-org/alist-web/releases and put it in your space, and then fill in the link to the location where you store the assets (to the dist/ level)
 
 ### database
 
@@ -52,7 +52,7 @@ Database related settings
 
 #### type
 
-Database type, optional `sqlite3`, `mysql`, `Postgres`
+Database type, optional `sqlite3`, `mysql`, ~~`postgres`~~
 
 #### user
 

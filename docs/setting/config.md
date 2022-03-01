@@ -44,7 +44,7 @@ config.json
 #### 自定义
 两种方法：
 - 反代jsdelivr，然后将jsdelivr的npm或者github的cdn中的host换成自己的
-- 在https://github.com/alist-org/assets/tags 下载编译好的文件放到你的空间上，然后此处的assets填写你存放的位置的链接（到dist/这一级）
+- 在https://github.com/alist-org/alist-web/releases 下载编译好的文件放到你的空间上，然后此处的assets填写你存放的位置的链接（到dist/这一级）
 
 ### database
 
@@ -52,7 +52,7 @@ config.json
 
 #### type
 
-数据库类型，可选`sqlite3`、`mysql`、`Postgres`
+数据库类型，可选`sqlite3`、`mysql`、~~`postgres`~~
 
 #### user
 
