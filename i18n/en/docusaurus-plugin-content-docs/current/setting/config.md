@@ -52,7 +52,7 @@ Database related settings
 
 #### type
 
-Database type, optional `sqlite3`, `mysql`, `Postgres`
+Database type, optional `sqlite3`, `mysql`, ~~`postgres`~~
 
 #### user
 

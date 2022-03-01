@@ -52,7 +52,7 @@ config.json
 
 #### type
 
-数据库类型，可选`sqlite3`、`mysql`、`Postgres`
+数据库类型，可选`sqlite3`、`mysql`、~~`postgres`~~
 
 #### user
 
