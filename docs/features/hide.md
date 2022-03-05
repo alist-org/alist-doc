@@ -19,6 +19,10 @@ sidebar_position: 4
 - path: `/本地存储`
 - hide: `README.md,index.tsx`
 
+#### 图解
+![list](https://store.heytapimage.com/cdo-portal/feedback/202203/03/f2c06e0f013f8ac2ff9420d93f15f2ea.png)
+![hide](https://store.heytapimage.com/cdo-portal/feedback/202203/03/d87a1d6397318b0c4727000ed9dd5732.png)
+
 即可。
 
 ### 前端隐藏
