@@ -40,6 +40,7 @@ sidebar_position: 1
 - [x] [Yandex.Disk](https://disk.yandex.com/)
 - [x] [百度网盘](http://pan.baidu.com/)
 - [x] [夸克网盘](https://pan.quark.cn/)
+- [x] [迅雷云盘](https://pan.xunlei.com/)
 
 ### 演示
 
