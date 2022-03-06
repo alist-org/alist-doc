@@ -30,7 +30,7 @@ chmod +x alist-xxxx
 当看到输出`start server @ 0.0.0.0:5244`且之后没有报错后，就表示运行成功了，首次运行会输出初始密码，程序默认监听5244端口，现在打开`http://ip:5244`就可以看见登陆页面了，webdav相关请看[WebDav](../webdav.md)。
 
 ### 守护进程
-`vim /usr/lib/systemd/system/alist.service`添加以下内容，其中path_alist为alist所在的路径
+`vim /etc/systemd/system/alist.service`添加以下内容，其中path_alist为alist所在的路径
 ```ini
 [Unit]
 Description=alist
