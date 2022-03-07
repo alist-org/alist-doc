@@ -4,6 +4,8 @@ sidebar_position: 44
 
 # 贡献新的存储
 
+复制`driver/template`以扩展新的存储。
+
 > 有些接口已经更新，具体请查看代码。
 
 alist的driver部分的设计是易于扩展的，无需修改其他文件，只需在后端项目`drivers`包下创建一个新的包并在all.go文件中引用这个包，包至少需要包含两个文件：
