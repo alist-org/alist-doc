@@ -55,3 +55,7 @@ const sign = md5(`alist-${TOKEN}-${name}`).slice(8, 24)
 ### api_proxy_url (API proxy address)
 
 Same as down_proxy_url, the proxy used by the request API is specially prepared for storage that cannot be directly accessed in China, such as GoogleDrive and PikPak.
+
+### extract_folder
+- front: put all folders to the front when sorting
+- back: put all folders to the back when sorting

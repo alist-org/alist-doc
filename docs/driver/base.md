@@ -53,3 +53,7 @@ const sign = md5(`alist-${TOKEN}-${name}`).slice(8, 24)
 ### api_proxy_url（API代理地址）
 
 同down_proxy_url，请求API使用的代理，专门为GoogleDrive和PikPak等国内无法直接访问的存储准备。
+
+### extract_folder
+- front: 排序时将文件夹全部放到最前面
+- back: 排序时将文件夹全部放到最后面
