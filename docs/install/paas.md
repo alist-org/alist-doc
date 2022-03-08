@@ -15,3 +15,7 @@ Easy to use but easy to violate ToS too.
 ### Heroku
 
 https://github.com/alist-org/alist-heroku
+
+### Koyeb
+
+https://github.com/DaoChen6/alist-koyeb
