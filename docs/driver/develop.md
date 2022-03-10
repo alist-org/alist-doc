@@ -4,7 +4,7 @@ sidebar_position: 44
 
 # 贡献新的存储
 
-复制`driver/template`以扩展新的存储。
+复制`driver/template`以扩展新的存储。请阅读[CONTRIBUTING](https://github.com/Xhofe/alist/blob/v2/CONTRIBUTING.md)
 
 > 有些接口已经更新，具体请查看代码。
 

@@ -4,7 +4,7 @@ sidebar_position: 44
 
 # Contribute new storage
 
-Duplicate `driver/template` to extend the new store.
+Duplicate `driver/template` to extend the new store. Please read [CONTRIBUTING](https://github.com/Xhofe/alist/blob/v2/CONTRIBUTING.md)
 
 > Some interfaces have been updated, please check the code for details.
 
