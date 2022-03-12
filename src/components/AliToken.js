@@ -6,9 +6,10 @@ const AliToken = () => {
   const [token, setToken] = React.useState("");
   const [err, setErr] = React.useState("");
   const [buttonText, setButtonText] = React.useState("Get Token");
-  // 0->等待显示二维码
-  // 1->等待扫码
-  // 2->获取token
+  // 0->初始
+  // 1->等待显示二维码
+  // 2->等待扫码
+  // 3->获取token
   const [state, setState] = React.useState(0);
   const getQr = () => {
     setButtonText("Waiting...");
@@ -20,6 +21,7 @@ const AliToken = () => {
           return;
         }
         setButtonText("Use AliyunDrive APP To Scan Then Click");
+        setState(2);
         setSrc(
           `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
         );
@@ -40,7 +42,8 @@ const AliToken = () => {
       resp.json().then((res) => {
         const result = res.pds_login_result;
         if (result.refreshToken) {
-          setState(2);
+          setState(3);
+          setButtonText("Finish");
           setToken(result.refreshToken);
         }
       })
@@ -49,7 +52,7 @@ const AliToken = () => {
   return (
     <div>
       <button
-        disabled={state === 2}
+        disabled={state === 2 || state === 1}
         className="button button--primary button--lg"
         onClick={() => {
           if (state === 0) {
