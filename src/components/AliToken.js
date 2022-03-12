@@ -57,7 +57,7 @@ const AliToken = () => {
         onClick={() => {
           if (state === 0) {
             getQr();
-          } else if (state === 1) {
+          } else if (state === 2) {
             getToken();
           }
         }}
