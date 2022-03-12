@@ -6,54 +6,57 @@ const AliToken = () => {
   const [token, setToken] = React.useState("");
   const [err, setErr] = React.useState("");
   const [buttonText, setButtonText] = React.useState("Get Token");
-  const interval = useRef(null);
-  useEffect(() => {
-    return () => {
-      if (interval.current) {
-        clearInterval(interval.current);
-      }
-    };
-  }, []);
+  // 0->等待显示二维码
+  // 1->等待扫码
+  // 2->获取token
+  const [state, setState] = React.useState(0);
+  const getQr = () => {
+    setButtonText("Waiting...");
+    setState(1);
+    fetch("https://tool.nn.ci/api/alidrive/qr.ts").then((resp) =>
+      resp.json().then((res) => {
+        if (!res.success) {
+          setErr(JSON.stringify(res));
+          return;
+        }
+        setButtonText("Use AliyunDrive APP To Scan Then Click");
+        setSrc(
+          `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
+        );
+      })
+    );
+  };
+  const getToken = () => {
+    fetch("https://tool.nn.ci/api/alidrive/ck.ts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ck: res.data.ck,
+        t: res.data.t,
+      }),
+    }).then((resp) =>
+      resp.json().then((res) => {
+        const result = res.pds_login_result;
+        if (result.refreshToken) {
+          setState(2);
+          setToken(result.refreshToken);
+        }
+      })
+    );
+  };
   return (
     <div>
       <button
-        disabled={buttonText !== "Get Token"}
+        disabled={state !== 2}
         className="button button--primary button--lg"
         onClick={() => {
-          setButtonText("Waiting...");
-          fetch("https://tool.nn.ci/api/alidrive/qr.ts").then((resp) =>
-            resp.json().then((res) => {
-              if (!res.success) {
-                setErr(JSON.stringify(res));
-                return;
-              }
-              setButtonText("Use AliyunDrive APP To Scan");
-              setSrc(
-                `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
-              );
-              const _interval = setInterval(() => {
-                fetch("https://tool.nn.ci/api/alidrive/ck.ts", {
-                  method: "POST",
-                  headers: {
-                    "Content-Type": "application/json",
-                  },
-                  body: JSON.stringify({
-                    ck: res.data.ck,
-                    t: res.data.t,
-                  }),
-                }).then((resp) =>
-                  resp.json().then((res) => {
-                    const result = res.pds_login_result;
-                    if (result.refreshToken) {
-                      setToken(result.refreshToken);
-                      clearInterval(_interval);
-                    }
-                  })
-                );
-              }, 2000);
-              interval.current = _interval;
-            })
-          );
+          if (state === 0) {
+            getQr();
+          } else if (state === 1) {
+            getToken();
+          }
         }}
       >
         <Translate>{buttonText}</Translate>
