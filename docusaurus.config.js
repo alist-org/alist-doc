@@ -18,7 +18,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
+  favicon: "https://cdn.jsdelivr.net/gh/alist-org/assets@main/logo.svg",
   organizationName: "Xhofe", // Usually your GitHub org/user name.
   projectName: "alist", // Usually your repo name.
 
