@@ -52,7 +52,7 @@ const AliToken = () => {
   return (
     <div>
       <button
-        disabled={state === 2 || state === 1}
+        disabled={state === 3 || state === 1}
         className="button button--primary button--lg"
         onClick={() => {
           if (state === 0) {
