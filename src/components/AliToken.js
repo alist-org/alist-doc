@@ -13,7 +13,7 @@ const AliToken = () => {
   const getQr = () => {
     setButtonText("Waiting...");
     setState(1);
-    fetch("https://tool.nn.ci/api/alidrive/qr.ts").then((resp) =>
+    fetch("https://tool.nn.ci/api/alidrive/qr2.ts").then((resp) =>
       resp.json().then((res) => {
         if (!res.success) {
           setErr(JSON.stringify(res));
@@ -27,7 +27,7 @@ const AliToken = () => {
     );
   };
   const getToken = () => {
-    fetch("https://tool.nn.ci/api/alidrive/ck.ts", {
+    fetch("https://tool.nn.ci/api/alidrive/ck2.ts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
