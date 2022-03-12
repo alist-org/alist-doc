@@ -52,7 +52,7 @@ const config = {
         title: "Alist Doc",
         logo: {
           alt: "Alist Logo",
-          src: "https://u.pigax.cn/gh/alist-org/assets@main/logo.svg",
+          src: "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
         },
         items: [
           {
