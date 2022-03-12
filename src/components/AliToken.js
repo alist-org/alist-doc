@@ -11,6 +11,7 @@ const AliToken = () => {
   // 2->等待扫码
   // 3->获取token
   const [state, setState] = React.useState(0);
+  const [ckData, setCkData] = React.useState("");
   const getQr = () => {
     setButtonText("Waiting...");
     setState(1);
@@ -22,6 +23,12 @@ const AliToken = () => {
         }
         setButtonText("Use AliyunDrive APP To Scan Then Click");
         setState(2);
+        setCkData(
+          JSON.stringify({
+            ck: res.data.ck,
+            t: res.data.t,
+          })
+        );
         setSrc(
           `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
         );
@@ -34,10 +41,7 @@ const AliToken = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        ck: res.data.ck,
-        t: res.data.t,
-      }),
+      body: ckData,
     }).then((resp) =>
       resp.json().then((res) => {
         const result = res.pds_login_result;
