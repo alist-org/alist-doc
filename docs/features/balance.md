@@ -8,3 +8,11 @@ sidebar_position: 8
 
 ### 如何使用
 一个账号正常添加，另一个账号添加名称为`第一个账号名称+.balance+任何其他内容`即可。
+
+例如：
+- 账号1：`test`
+- 账号2：`test.balance1`
+- 账号3：`test.balance2`
+- 账号4：`test.balance3`
+- ...
+- 账号n：`test.balancen`
