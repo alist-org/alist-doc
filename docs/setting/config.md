@@ -27,14 +27,14 @@ config.json
 
 - `jsdelivr npm`: https://cdn.jsdelivr.net/npm/alist-web@$version/dist/
 - `unpkg npm`: https://unpkg.com/alist-web@$version/dist/
-- `pigax jsdelivr npm(腾讯云cdn)`: https://u.pigax.cn/npm/alist-web@$version/dist/
-- `pigax unpkg npm(腾讯云cdn)`: https://unpkg.pigax.cn/alist-web@$version/dist/
+- ~~`pigax jsdelivr npm(腾讯云cdn)`: https://u.pigax.cn/npm/alist-web@$version/dist/~~
+- ~~`pigax unpkg npm(腾讯云cdn)`: https://unpkg.pigax.cn/alist-web@$version/dist/~~
 - `tianli jsdelivr npm(腾讯云cdn)`: https://cdn1.tianli0.top/npm/alist-web@$version/dist/
 
 #### GitHub
 
 - `jsdelivr github`: https://cdn.jsdelivr.net/gh/alist-org/assets@$version/dist/
-- `pigax jsdelivr github(腾讯云cdn)`: https://u.pigax.cn/gh/alist-org/assets@$version/dist/
+- ~~`pigax jsdelivr github(腾讯云cdn)`: https://u.pigax.cn/gh/alist-org/assets@$version/dist/~~
 - `tianli jsdelivr github(腾讯云cdn)`: https://cdn1.tianli0.top/gh/alist-org/assets@$version/dist/
 
 #### 本地
