@@ -28,6 +28,10 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 在 OneDrive for Business 和 SharePoint Server 2016 中，orderby 查询字符串仅支持 name 和 url。
 ### 关于浏览器支持度
 请自行搜索：`vite`,`chakra-ui`,`react`等[`alist-web`所使用到的依赖](https://github.com/alist-org/alist-web/blob/v2/package.json)的浏览器的支持度，本程序浏览器支持度由上层依赖决定。
+### 上传后台处理中？
+本程序的上传流程是：客户端->服务器->对应的存储，如果你的服务器上传带宽很小，则会需要很长时间，如果使用nginx反代还可能会出现超时，但其实后台仍然在上传。
+所以web上传功能一般只建议在服务器带宽够大或者本地使用。
+> 为什么不使用web端直传？因为要兼容webdav协议，webdav只能由服务器中转，且部分网盘上传时有各种限制，只在前端无法处理。所以统一为由后端上传。
 
 :::tip
 如果阅读文档之后，还未解决你的问题，请优先[在Discussions中提问/讨论](https://github.com/Xhofe/alist/discussions/new)或[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
