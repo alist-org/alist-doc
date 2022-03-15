@@ -56,5 +56,10 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - *坤
 - 叶秋
 - **华
+- *称
+- **潼
+- **名
+- *欧
+- **能
 
 If there is any omission, please contact to add it.
