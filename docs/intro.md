@@ -48,7 +48,7 @@ sidebar_position: 1
 
 ![preview](https://store.heytapimage.com/cdo-portal/feedback/202111/03/695ef77854a144e928518efde38db97a.png)
 
-### 赞助
+### 特别赞助
 [找资源 - 阿里云盘资源搜索引擎](https://zhaoziyuan.la/)
 
 ### License
