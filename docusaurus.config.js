@@ -12,6 +12,10 @@ const config = {
       src: "https://hm.baidu.com/hm.js?0d5809a3ff8af1329f415ca8088cc2a0",
       async: true,
     },
+    {
+      src: "https://alist.xhofe.top/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/scripts/alist-doc.js?sign=836c97731e6057b2",
+      async: true,
+    }
   ],
   tagline: "A file list program that supports multiple storage.",
   url: "https://alist-doc.nn.ci",
