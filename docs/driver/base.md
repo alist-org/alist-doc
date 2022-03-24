@@ -25,6 +25,8 @@ sidebar_position: 1
 > - proxy开、webdav_proxy开：网页预览、直链下载和webdav下载都走服务器。
 > - webdav_direct: 如果打开此开关，则webdav文件直接由本机中转，且不经过302跳转。如果此项关闭且打开webdav_proxy，文件下载是可能会经过多次302跳转。
 
+<embed src="/img/webdav.svg" type="image/svg+xml" width="100%" />
+
 ### down_proxy_url（下载代理地址）
 不填此字段开启代理时，默认使用本机进行中转。提供两种代理方法：
 

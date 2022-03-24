@@ -25,6 +25,8 @@ If there are no proxy and webdav_proxy options, it means that you can only go th
 > - proxy on, webdav_proxy on: web page preview, direct link download and webdav download all go to the server.
 > - webdav_direct: If this switch is turned on, the webdav file will be directly transferred by this machine without going through 302 jump. If this item is turned off and webdav_proxy is turned on, the file download may go through multiple 302 jumps.
 
+<embed src="/img/webdav.svg" type="image/svg+xml" width="100%" />
+
 ### down_proxy_url (download proxy address)
 When the proxy is turned on without filling in this field, the local machine will be used for transfer by default.Two proxy methods are provided:
 
