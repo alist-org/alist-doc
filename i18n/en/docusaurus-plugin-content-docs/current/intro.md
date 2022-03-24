@@ -20,7 +20,7 @@ A file list program that supports multiple storage, and supports web browsing an
 - [x] Local storage
 - [x] [aliyundrive](https://www.aliyundrive.com/)
 - [x] OneDrive / Sharepoint ([global](https://www.office.com/), [cn](https://portal.partner.microsoftonline.cn),de,us）
-- [x] [189cloud](https://cloud.189.cn)
+- [x] [189cloud](https://cloud.189.cn) (Personal, Family)
 - [x] [GoogleDrive](https://drive.google.com/)
 - [x] [123pan](https://www.123pan.com/)
 - [x] [lanzou](https://pc.woozooo.com/)

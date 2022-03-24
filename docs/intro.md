@@ -24,7 +24,7 @@ sidebar_position: 1
 - [x] 本地存储
 - [x] [阿里云盘](https://www.aliyundrive.com/)
 - [x] OneDrive / Sharepoint（[国际版](https://www.office.com/), [世纪互联](https://portal.partner.microsoftonline.cn),de,us）
-- [x] [天翼云盘](https://cloud.189.cn)
+- [x] [天翼云盘](https://cloud.189.cn) (个人云, 家庭云)
 - [x] [GoogleDrive](https://drive.google.com/)
 - [x] [123 云盘](https://www.123pan.com/)
 - [x] [蓝奏云](https://pc.woozooo.com/)
