@@ -8,6 +8,7 @@ sidebar_position: 44
 - 支付宝/微信/QQ
 <img height="400px" src="https://store.heytapimage.com/cdo-portal/feedback/202111/05/9319ae9d532c7929d2c5f536619c29f7.png" />
 
+- 顿顿饭：https://dun.mianbaoduo.com/@Xhofe
 - 爱发电：https://afdian.net/@Xhofe
 
 ### Thanks
@@ -62,5 +63,11 @@ sidebar_position: 44
 - **名
 - *欧
 - **能
+- **华
+- *嗤
+- 徒花丶藀訣
+- 风*s
+- **昕
+- 我本是道
 
 如有遗漏，可联系添加。
