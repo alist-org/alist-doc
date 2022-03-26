@@ -5,6 +5,7 @@ sidebar_position: 44
 # 🥤 Buy me coffee
 If you think this project is helpful to you, you may wish to consider buying me a cup of milk tea😄.
   
+- Buy me a coffee: https://www.buymeacoffee.com/Xhofe
 - Paypal: https://www.paypal.me/Xhofe
 - Alipay/WechatPay/QQPay
 <img height="400px" src="https://store.heytapimage.com/cdo-portal/feedback/202111/05/9319ae9d532c7929d2c5f536619c29f7.png" />
