@@ -44,7 +44,8 @@ sidebar_position: 20
 ```
 
 ### 随机二次元背景图样式
-```css
+```html
+<style>
 .chakra-ui-light{
   background-image: url("https://www.dmoe.cc/random.php") !important;
   background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
@@ -87,10 +88,11 @@ sidebar_position: 20
             "opacityOnHover": 0.2
         }
     });
+</script>
 ```
 
 ### 猛男风格
-```
+```html
 <!--head-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -105,7 +107,7 @@ sidebar_position: 20
 <!--如需修改请自行将代码格式化-->
 ```
 或者
-```
+```html
 <!--head-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anosu/anosu.github.io@main/cdn/css/alist/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
