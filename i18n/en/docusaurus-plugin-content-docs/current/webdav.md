@@ -21,7 +21,7 @@ sidebar_position: 8
 | Storage strategy | list | download | mkdir | rename | move | copy | upload |
 | ---------------- | :--: | :------: | :---: | :----: | :--: | :--: | :----: |
 | Native           |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
-| AliDirve         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
+| AliDirve         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | Onedrive         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | 189Cloud         |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ✅  |   ✅   |
 | GoogleDrive      |  ✅  |    ✅    |  ✅   |   ✅   |  ✅  |  ❌  |   ✅   |
