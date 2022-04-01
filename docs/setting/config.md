@@ -82,6 +82,11 @@ config.json
 
 数据库文件，对于 sqlite3
 
+#### ssl_mode
+- sqlite3：忽略该参数
+- mysql：等同于<https://github.com/go-sql-driver/mysql#tls>
+- postgres： 即同名参数，具体见<https://github.com/jackc/pgconn/blob/b7a85d1a6fc58df695e8cf0571ebf4e7dab921d5/config.go#L576>
+
 ### scheme
 
 协议

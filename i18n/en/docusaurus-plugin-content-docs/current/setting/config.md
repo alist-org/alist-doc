@@ -82,6 +82,11 @@ Database table prefix (use one database for multiple applications)
 
 Database file, for sqlite3
 
+#### ssl_mode
+- sqlite3: ignore this parameter
+- mysql: equivalent to <https://github.com/go-sql-driver/mysql#tls>
+- postgres: the parameter with the same name, see <https://github.com/jackc/pgconn/blob/b7a85d1a6fc58df695e8cf0571ebf4e7dab921d5/config.go#L576>
+
 ### scheme
 
 protocol
