@@ -27,7 +27,7 @@ For docker update, please refer to: https://store.heytapimage.com/cdo-portal/fee
 ### Onedrive: The property xx is not supported for OrderBy?
 Note that in OneDrive for Business and SharePoint Server 2016, the orderby query string only works with name and url.
 ### About browser support
-Please search by yourself: `vite`, `chakra-ui`, `react`, etc. [dependencies used by `alist-web`](https://github.com/alist-org/alist-web/blob/v2 /package.json), the browser support of this program is determined by the upper-level dependencies.
+Please search by yourself: `vite`, `chakra-ui`, `react`, etc. [dependencies used by `alist-web`](https://github.com/alist-org/alist-web/blob/v2/package.json), the browser support of this program is determined by the upper-level dependencies.
 ### Upload background processing?
 The upload process of this program is: client->server->corresponding storage. If your server upload bandwidth is small, it will take a long time. If you use nginx to reverse the generation, there may be a timeout, but in fact, the background is still in upload.
 Therefore, the web upload function is generally only recommended when the server bandwidth is large enough or it is used locally.
