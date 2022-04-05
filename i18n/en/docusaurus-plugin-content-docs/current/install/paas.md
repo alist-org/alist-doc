@@ -20,4 +20,4 @@ Easy to use but easy to violate ToS too.
 
 ### Heroku
 
-https://github.com/alist-org/alist-heroku
+https://github.com/alist-org/alist-heroku-postgres
