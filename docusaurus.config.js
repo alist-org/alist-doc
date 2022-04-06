@@ -15,6 +15,7 @@ const config = {
     {
       src: "//sdk.51.la/js-sdk-pro.min.js?id=JeJvFd1C4zJrym9w&ck=JeJvFd1C4zJrym9w",
       async: true,
+      id: "LA_COLLECT",
     }
   ],
   tagline: "A file list program that supports multiple storage.",
