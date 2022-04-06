@@ -13,7 +13,7 @@ const config = {
       async: true,
     },
     {
-      src: "https://alist.xhofe.top/d/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/scripts/alist-doc.js?sign=836c97731e6057b2",
+      src: "//sdk.51.la/js-sdk-pro.min.js?id=JeJvFd1C4zJrym9w&ck=JeJvFd1C4zJrym9w",
       async: true,
     }
   ],
