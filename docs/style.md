@@ -3,8 +3,19 @@ sidebar_position: 20
 ---
 
 # 示例样式
+### 自定义主体宽度
+```html
+<style>
+  @media screen and (min-width: 62em) {
+    .root-box {
+      width: 1300px !important;
+    }
+  }
+</style>
+```
 ### 无边框阴影
-```css
+```html
+<style>
 .chakra-ui-light{
   background-color: #edddfd;
 }
@@ -22,9 +33,11 @@ sidebar_position: 20
   border-radius: 15px !important;
   box-shadow: unset !important;
 }
+</style>
 ```
 ### 仿大白样式
-```css
+```html
+<style>
 .chakra-ui-light{
   background-image: linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%) !important;
   background-attachment: fixed;
@@ -41,6 +54,7 @@ sidebar_position: 20
 .readme-box {
   border-radius: 15px !important;
 }
+</style>
 ```
 
 ### 随机二次元背景图样式
