@@ -22,3 +22,7 @@ Easy to use but easy to violate ToS too.
 
 - https://github.com/alist-org/alist-heroku-postgres (recommend)
 - https://github.com/alist-org/alist-heroku
+
+### Repl.it
+- https://github.com/alist-org/alist-replit
+- Or fork this reql direactly: <https://replit.com/@Xhofe/alist>
