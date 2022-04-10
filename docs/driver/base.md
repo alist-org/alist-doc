@@ -12,7 +12,7 @@ sidebar_position: 1
 一个有三个相关选项：
 - proxy：网页端和直链走不走中转
 - webdav_proxy：webdav文件下载走不走中转
-- webdav_direct：webdav直接由本机中转
+- webdav_direct：webdav是否直接由本机中转
 
 如果没有proxy和webdav_proxy选项，则说明只能走中转
 
@@ -23,7 +23,7 @@ sidebar_position: 1
 > - proxy开、webdav_proxy关：网页上的预览、直链下载都走服务器，但webdav下载不走服务器
 > - proxy关、webdav_proxy开：网页上的预览、直链下载不走服务器，但webdav下载走服务器
 > - proxy开、webdav_proxy开：网页预览、直链下载和webdav下载都走服务器。
-> - webdav_direct: 如果打开此开关，则webdav文件直接由本机中转，且不经过302跳转。如果此项关闭且打开webdav_proxy，文件下载是可能会经过多次302跳转。
+> - webdav_direct: 如果打开此开关，则webdav文件直接由本机中转，且不经过302跳转。如果此项关闭且打开webdav_proxy，webdav客户端在get文件时可能会经过多次302跳转。因为部分客户端可能不支持302跳转get文件，所以打开此开关可能会提示部分客户端的兼容性。
 
 <embed src="/img/webdav.svg" type="image/svg+xml" width="100%" />
 
