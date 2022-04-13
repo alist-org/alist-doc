@@ -13,6 +13,7 @@ sidebar_position: 9
 ```js
 md5(`https://github.com/Xhofe/alist-${YOUR_PASSWORD}`)
 ```
+还可以在登录后的localStorage中找到，名称为`admin-token`。
 
 ### 根目录路径
 要添加的目录的pathname，不填默认为根目录，如：
