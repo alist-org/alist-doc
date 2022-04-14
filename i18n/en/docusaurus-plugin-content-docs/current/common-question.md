@@ -13,6 +13,11 @@ Check if the encoding is not supported. Generally, browsers do not support encod
 To facilitate the installation, the front-end file and the program are packaged together. If you need to modify it, please modify and compile by yourself according to run from the source code or fill in the custom style/script field.
 ### What should I do if I forgot my password?
 Command line ./alist-xxxx -password to view.(Where xxxx refers to the names corresponding to different systems/architectures, generally Linux-x86/64 is alist-linux-amd64, if you use script installation, the name is directly alist)
+> Corresponding to the installation method:
+> - Script installation: the initial password will be output during installation, get it again: `cd /opt/alist && ./alist -password`
+> - binary manual installation: execute in the directory where the program is located: `./alist -password` (where alist refers to the binary file name)
+> - Docker: use the command `docker exec -it alist ./alist -password` to view the password
+> - PaaS: How to find and view the password in the corresponding warehouse
 ### Custom styles/scripts don’t take effect?
 Are the front and rear ends separated? The custom part is the back-end processing and only works when it is not separated.
 ### The uploaded file is not displayed/the deleted file is still there/does the modification of the root directory take effect?
