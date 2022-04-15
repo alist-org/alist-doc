@@ -33,6 +33,8 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 在 OneDrive for Business 和 SharePoint Server 2016 中，orderby 查询字符串仅支持 name 和 url。
 ### 关于浏览器支持度
 请自行搜索：`vite`,`chakra-ui`,`react`等[`alist-web`所使用到的依赖](https://github.com/alist-org/alist-web/blob/v2/package.json)的浏览器的支持度，本程序浏览器支持度由上层依赖决定。
+### 添加账号提示：`UNIQUE constraint failed: x_accounts.name`
+虚拟路径是唯一的，不能重复。
 ### 上传后台处理中？
 本程序的上传流程是：客户端->服务器->对应的存储，如果你的服务器上传带宽很小，则会需要很长时间，如果使用nginx反代还可能会出现超时，但其实后台仍然在上传。
 所以web上传功能一般只建议在服务器带宽够大或者本地使用。
