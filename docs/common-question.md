@@ -18,6 +18,7 @@ sidebar_position: 10
 > - 二进制手动安装：在程序所在目录执行：`./alist -password` （其中的alist指二进制文件名）
 > - Docker：使用命令`docker exec -it alist ./alist -password` 查看密码
 > - PaaS: 对应仓库查找查看密码的方法
+
 ### 自定义样式/脚本不生效？
 是否前后端分开了？自定义部分为后端处理，只有在不分开时才起作用。
 ### 上传的文件不显示/删除的文件还在/修改根目录不生效？

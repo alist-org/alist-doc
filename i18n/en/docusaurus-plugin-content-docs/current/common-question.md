@@ -18,6 +18,7 @@ Command line ./alist-xxxx -password to view.(Where xxxx refers to the names corr
 > - binary manual installation: execute in the directory where the program is located: `./alist -password` (where alist refers to the binary file name)
 > - Docker: use the command `docker exec -it alist ./alist -password` to view the password
 > - PaaS: How to find and view the password in the corresponding warehouse
+
 ### Custom styles/scripts don’t take effect?
 Are the front and rear ends separated? The custom part is the back-end processing and only works when it is not separated.
 ### The uploaded file is not displayed/the deleted file is still there/does the modification of the root directory take effect?
