@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # basic configuration
 Mandatory fields for all accounts
-### name
+### Virtual path
 Unique identifier, that is the location you want to mount to, if you want to mount to the root directory, it is `/`
 ### index
 When there are multiple accounts, it is used for sorting, the smaller the higher
