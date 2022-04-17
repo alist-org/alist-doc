@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # OneDrive
 
+:::tip
+If your account does not support the API, (for example, the school account has not verified the administrator, or the administrator has disabled the API), then you can also mount it through webdav. For details, see [webdav](webdav.md)
+:::
+
 First open https://tool.nn.ci/onedrive/request
 
 ### Create an application

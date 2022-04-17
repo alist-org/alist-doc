@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # OneDrive
 
+:::tip
+如果你的账号不支持API，（比如学校账号未验证管理员，或者是管理员禁用了API），那么你还可以通过webdav的方式来挂载。具体见 [webdav](webdav.md)
+:::
+
 ### 视频教程
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=636185928&bvid=BV1Rb4y1E7NV&cid=499811348&page=1&high_quality=1&danmaku=1&as_wide=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> -->
