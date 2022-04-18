@@ -17,3 +17,7 @@ curl -L -X GET 'YOUR_LINK' -H 'User-Agent: pan.baidu.com'
 
 ### 根目录路径
 要挂载的根目录，默认为`/`
+
+### Download api
+- official: 官方接口，非常稳定，但是对于较大文件需要修改UA且速度慢
+- crack：非官方接口，无需修改UA且部分文件可能不限速，但是**可能**会不稳定

@@ -8,7 +8,7 @@ sidebar_position: 18
 Due to the limitation of Baidu Disk API, downloading files larger than about 20M needs to carry the header: "User-Agent": "pan.baidu.com", so when downloading files larger than 20M, you need to set the request header yourself, such as using curl:
 ```bash
 curl -L -X GET 'YOUR_LINK' -H 'User-Agent: pan.baidu.com'
-````
+```
 Or use the proxy function in this program to transfer.
 :::
 
@@ -17,3 +17,7 @@ Or use the proxy function in this program to transfer.
 
 ### root folder path
 The root foler to mount, defaults to `/`
+
+### Download api
+- official: The official interface, very stable, but for larger files, UA needs to be modified and the speed is slow
+- crack: unofficial interface, no need to modify UA and some files may not limit the speed, but **maybe** unstable
