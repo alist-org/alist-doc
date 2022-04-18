@@ -18,7 +18,7 @@ chmod +x alist-xxxx
 # Run the program
 ./alist-xxxx
 ```
-*The xxxx refers to the names corresponding to different systems/architectures, generally Linux-x86/64 is alist-linux-amd64*
+*The xxxx refers to the names corresponding to different systems/architectures, generally Linux-x86/64 is alist-linux-amd64. If your glibc version is too low, it is recommended to download the musl version*
 
 <details>
   <summary>Windows</summary>

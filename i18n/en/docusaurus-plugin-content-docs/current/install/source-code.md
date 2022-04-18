@@ -11,7 +11,7 @@ This step is only for users who need to modify the source code by themselves. If
 :::
 
 ### Environmental preparation
-First, you need to have an environment of `git`, `nodejs`, `yarn`, `golang>1.17`, `gcc`
+First, you need to have an environment of `git`, `nodejs`, `yarn`, `golang>=1.18`, `gcc`
 
 ### Building the front end
 clone https://github.com/Xhofe/alist-web this project, execute `yarn && yarn build` to get the target file in the dist directory

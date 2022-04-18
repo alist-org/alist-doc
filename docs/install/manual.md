@@ -18,7 +18,7 @@ chmod +x alist-xxxx
 # 运行程序
 ./alist-xxxx
 ```
-*其中的xxxx是指不同系统/架构对应的名称，一般Linux-x86/64是alist-linux-amd64*
+*其中的xxxx是指不同系统/架构对应的名称，一般Linux-x86/64是alist-linux-amd64，如果你的glibc版本过低，建议下载musl版本*
 
 <details>
   <summary>Windows</summary>
