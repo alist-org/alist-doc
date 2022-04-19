@@ -30,7 +30,7 @@ const AliToken = () => {
           })
         );
         setSrc(
-          `https://api.xhofe.top/qr/?size=200&text=${res.data.codeContent}`
+          `https://api.nn.ci/qr/?size=400&text=${encodeURIComponent(res.data.codeContent)}`
         );
       })
     );
