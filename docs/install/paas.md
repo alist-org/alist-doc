@@ -25,3 +25,4 @@ Easy to use but easy to violate ToS too.
 
 ### Repl.it
 - https://github.com/alist-org/alist-replit
+- https://github.com/valetzx/alist-build-on-replit
