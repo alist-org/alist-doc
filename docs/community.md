@@ -9,7 +9,8 @@ sidebar_position: 30
 点击链接：https://t.me/alist_chat
 
 ### QQ群
-点击链接加入群聊[【Alist使用交流】](https://jq.qq.com/?_wv=1027&k=OVPJcv2b)，或搜索群号：`920516758`。
+- 点击链接加入群聊[【Alist使用交流】](https://jq.qq.com/?_wv=1027&k=OVPJcv2b)，或搜索群号：`920516758`。
+- 1群已满，2群链接：[【Alist使用交流2群】](https://jq.qq.com/?_wv=1027&k=YJJj2Gwb)，或搜索群号：`938287703`。
 
 ### GitHub Discussions
 欢迎访问 https://github.com/Xhofe/alist/discussions 进行讨论。
