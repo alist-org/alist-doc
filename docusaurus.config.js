@@ -108,7 +108,7 @@ const config = {
               },
               {
                 label: "QQ Group",
-                href: "https://jq.qq.com/?_wv=1027&k=OVPJcv2b",
+                href: "https://jq.qq.com/?_wv=1027&k=YJJj2Gwb",
               },
             ],
           },
