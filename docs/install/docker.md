@@ -16,7 +16,8 @@ docker exec -it alist ./alist -password
 docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:latest
 ```
 
-### 开发版
+### 开发版 
+不推荐，这有可能无法正常使用
 ```bash
 docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:v2
 ```

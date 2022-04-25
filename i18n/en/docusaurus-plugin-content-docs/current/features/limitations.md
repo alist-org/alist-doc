@@ -42,4 +42,4 @@ For details, please refer to https://developer.mozilla.org/en-US/docs/Learn/Comm
 ### File Upload
 - All uploads of this program use server transfer
 - If you use a reverse proxy, you may need to specify the maximum upload file size and timeout in the configuration
-- Otherwise, there may be cases where the upload is successful but the front-end timeout does not change
+- Otherwise, it may happen that the upload is successful but the front end times out and there is no response
