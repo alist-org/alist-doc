@@ -40,6 +40,10 @@ Virtual paths are unique and cannot be repeated.
 The upload process of this program is: client->server->corresponding storage. If your server upload bandwidth is small, it will take a long time. If you use nginx to reverse the generation, there may be a timeout, but in fact, the background is still in upload.
 Therefore, the web upload function is generally only recommended when the server bandwidth is large enough or it is used locally.
 > Why not use web-side direct transmission? Because it is compatible with the webdav protocol, webdav can only be transferred by the server, and some network disks have various restrictions when uploading, which cannot be processed only in the front end. So it is unified to upload from the backend.
+### How to remove `Powered by Alist` at the bottom?
+Please respect the developer's labor, thank you
+### How to remove the `manage` at the top?
+This doesn't make any sense other than causing you trouble getting to the manage page.
 
 :::tip
 If your problem has not been resolved after reading the document, please give priority to [ask/discuss in Discussions](https://github.com/Xhofe/alist/discussions/new) or [issue](https://github .com/Xhofe/alist/issues/new/choose).
