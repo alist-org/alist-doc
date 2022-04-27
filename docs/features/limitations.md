@@ -32,7 +32,7 @@ sidebar_position: 10
 同pdf预览，需要https+cors支持
 
 ### 文件夹/文件名
-本程序遵循正规url规则：
+本程序遵循合法url规则：
 ![url](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png)
 - 不能包含`?`，这表示一个parameters参数
 - 不能包含`#`，这表示一个anchor参数

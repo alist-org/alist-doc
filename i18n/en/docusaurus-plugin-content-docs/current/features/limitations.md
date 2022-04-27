@@ -32,7 +32,7 @@ In particular, for Safari:
 Same as pdf preview, requires https+cors support
 
 ### folder/file name
-This program follows the regular url rules:
+This program follows legal url rules:
 ![url](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png)
 - cannot contain `?`, which means a parameters parameter
 - cannot contain `#`, which means an anchor parameter
