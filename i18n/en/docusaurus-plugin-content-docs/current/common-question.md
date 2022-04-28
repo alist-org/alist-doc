@@ -43,8 +43,15 @@ Therefore, the web upload function is generally only recommended when the server
 
 ### How to remove `Powered by Alist` at the bottom?
 Please respect the developer's labor, thank you
-### How to remove the `manage` at the top?
-This doesn't make any sense other than causing you trouble getting to the manage page.
+### How to remove `Manage` at the bottom?
+This doesn't make any sense other than causing you trouble getting to the admin page. But we still provide css to remove it:
+```html
+<style>
+.footer span, .footer a:nth-of-type(2){
+   display:none;
+}
+</style>
+````
 
 :::tip
 If your problem has not been resolved after reading the document, please give priority to [ask/discuss in Discussions](https://github.com/Xhofe/alist/discussions/new) or [issue](https://github .com/Xhofe/alist/issues/new/choose).

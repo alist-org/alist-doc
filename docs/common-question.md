@@ -43,8 +43,15 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 
 ### 怎么去掉底部的`Powered by Alist`？
 请尊重开发者的劳动成果，谢谢
-### 怎么去掉顶部的`管理`？
-这除了给你进入管理页面带来麻烦之外，并没有其他任何意义。
+### 怎么去掉底部的`管理`？
+这除了给你进入管理页面带来麻烦之外，并没有其他任何意义。但我们仍提供了去除它的css：
+```html
+<style>
+.footer span,.footer a:nth-of-type(2){
+  display:none;
+}
+</style>
+```
 
 :::tip
 如果阅读文档之后，还未解决你的问题，请优先[在Discussions中提问/讨论](https://github.com/Xhofe/alist/discussions/new)或[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
