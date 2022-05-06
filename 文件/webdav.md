@@ -2,8 +2,6 @@
 sidebar_position: 8
 ---
 
-# WebDav
-
 ### WebDAV 配置
 
 | 参数 | 值                         |
