@@ -77,5 +77,15 @@ If you think this project is helpful to you, you may wish to consider buying me 
 - *袄
 - *η
 - **柏
+- a*g
+- a*g
+- 江悦
+- *哥
+- *能
+- FasrDP
+- *凯
+- 矿神spk
+- **强
+- **会
 
 If there is any omission, please contact to add it.
