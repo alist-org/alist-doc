@@ -37,6 +37,7 @@ sidebar_position: 10
 - 不能包含`?`，这表示一个parameters参数
 - 不能包含`#`，这表示一个anchor参数
 - 不能包含`/`，这用于定位路径
+- 不能包含`\`，错误的转义字符会导致程序陷入死循环
 具体可参考https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
 
 ### 文件上传

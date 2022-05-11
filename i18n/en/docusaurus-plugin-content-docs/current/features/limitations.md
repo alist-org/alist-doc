@@ -37,6 +37,7 @@ This program follows legal url rules:
 - cannot contain `?`, which means a parameters parameter
 - cannot contain `#`, which means an anchor parameter
 - cannot contain `/`, this is used to locate the path
+- Cannot contain `\`, wrong escape characters will cause the program to fall into an infinite loop
 For details, please refer to https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
 
 ### File Upload
