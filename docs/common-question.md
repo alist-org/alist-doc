@@ -52,6 +52,8 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 }
 </style>
 ```
+### TLS handshake timeout? / read: connection reset by peer? / dns lookup failed? / connect: connection refused?
+诸如此类的网络问题，请自行排查解决。
 
 :::tip
 如果阅读文档之后，还未解决你的问题，请优先[在Discussions中提问/讨论](https://github.com/Xhofe/alist/discussions/new)或[提issue](https://github.com/Xhofe/alist/issues/new/choose)。

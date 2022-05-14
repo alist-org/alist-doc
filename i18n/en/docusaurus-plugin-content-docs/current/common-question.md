@@ -51,7 +51,9 @@ This doesn't make any sense other than causing you trouble getting to the admin 
    display:none;
 }
 </style>
-````
+```
+### TLS handshake timeout? / read: connection reset by peer? / dns lookup failed? / connect: connection refused?
+For network problems such as these, please troubleshoot and solve them yourself.
 
 :::tip
 If your problem has not been resolved after reading the document, please give priority to [ask/discuss in Discussions](https://github.com/Xhofe/alist/discussions/new) or [issue](https://github .com/Xhofe/alist/issues/new/choose).
