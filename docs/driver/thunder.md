@@ -11,16 +11,16 @@ sidebar_position: 24
 
 
 ## 图片操作
-![XunLei1](https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/images/Xunlei1.png)
+![XunLei1](../../static/img/Xunlei1.png)
 
 ----
 
-![XunLei2](https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/images/Xunlei2.png)
+![XunLei2](../../static/img/Xunlei2.png)
 
 ----
 
-![XunLei3](https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/images/Xunlei3.png)
+![XunLei3](../../static/img/Xunlei3.png)
 
 ----
 
-![XunLei4](https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/images/Xunlei4.png)
+![XunLei4](../../static/img/Xunlei4.png)
