@@ -15,19 +15,19 @@ sidebar_position: 24
 
 
 ## 图片操作
-![XunLei1](/img/Xunlei1.png)
+![XunLei1](/img/thunder/Xunlei1.png)
 
 ----
 
-![XunLei2](/img/Xunlei2.png)
+![XunLei2](/img/thunder/Xunlei2.png)
 
 ----
 
-![XunLei3](/img/Xunlei3.png)
+![XunLei3](/img/thunder/Xunlei3.png)
 
 ----
 
-![XunLei4](/img/Xunlei4.png)
+![XunLei4](/img/thunder/Xunlei4.png)
 
 
 不填默认为根目录
