@@ -4,9 +4,13 @@ sidebar_position: 24
 
 # 迅雷网盘
 
-推荐你看这个视频来了解如何添加：
+## 推荐你看这个视频来了解如何添加：
+<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=511500007&bvid=BV1yu411z7ZF&cid=721651025" width="100%" />
+*https://www.bilibili.com/video/BV1yu411z7ZF/*
 
-暂无新版迅雷视频,可以先看图片详解
+## 纯享版-一镜到底：
+<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=554110193&bvid=BV18v4y1N7AY&cid=721662144" width="100%" />
+*https://www.bilibili.com/video/BV18v4y1N7AY/*
 
 
 
