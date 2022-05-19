@@ -21,7 +21,7 @@ sidebar_position: 10
 - 一般浏览器不支持ac3编码音频
 
 特别的，对于Safari：
-- 对于跨域媒体，content-type必须是媒体类型，而不是通用的`application/octet-stream`
+- 对于跨域媒体，content-type必须是媒体类型，而不是通用的`application/octet-stream`，所以如果直链返回的content-type是`application/octet-stream`（比如阿里云盘），那么Safari将无法播放。（ps：为什么阿里云盘官网在safari可以播放？因为官网的视频播放并不是使用的下载链接，而是经过了阿里云盘转码之后的链接）
 
 ### PDF预览
 - 除了阿里云盘之外，其他的网盘需要https+cors才可以预览

@@ -21,7 +21,7 @@ Some feature limitations:
 - General browsers do not support ac3 encoded audio
 
 In particular, for Safari:
-- For cross-origin media, content-type must be the media type, not the generic `application/octet-stream`
+- For cross-origin media, content-type must be the media type, not the generic `application/octet-stream`. So if the content-type returned by the direct link is `application/octet-stream`, then Safari will not be able to play.
 
 ### PDF Preview
 - Except for Alibaba Cloud Disk, other network disks require https+cors to preview
