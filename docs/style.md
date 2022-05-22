@@ -131,6 +131,90 @@ sidebar_position: 20
 <div id="bg">
 ```
 
+### 高斯模糊加窗口风格
+``` css
+/*
+    name:Alist.css
+    versiom:1.0.1
+    update_time:2022年5月22日
+    author:思卿长安归
+    downloadURL：https://sxyun.onrender.com/d/aliyun/Alist.css
+                 https://sxyun.onrender.com/d/aliyun/Alist.txt
+
+说明：
+1、该样式适用于alist前端，请复制全部内容放置在自定义body里面，使用时请放在<style></style>之间，可以自定义的参数已标注。
+2、除背景接口外，所有代码为原创，你可以修改后发布，但不能删除本说明的任何内容。
+    （尊重它人劳动成果）
+3、如有建议请邮箱联系：tzpos1@gmail.com（不常看邮箱）。
+4、任何修改都会发布到我的博客 https://shixin.vercel.app/或访问shixinboy.github.com。
+
+*/
+:root{
+    --title_bg:rgb(0, 140, 255);/*设置标题栏背景色*/
+    --main_bg:rgba(256,256,256,0.5);/*设置内容区域背景色*/
+    --text_color:black;/*设置文字颜色，影响全局*/
+    --blur:blur(8em);/*设置模糊度*/
+    --radius:8px;/*设置圆角大小*/
+    --shadow:gray 4px 4px 4px; /*设置readme——box的阴影,留空则无阴影*/
+    --main_t_p_M:40px;/*设置root-box的上下高度（外边距）*/
+    --padding_l_r:8px; /*设置左右内边距,影响readme-box的内边距*/
+    /*
+    下面的变量用于设置“power by alist | 管理”的显示模式，可选：
+    none	不显示
+    block	显示
+    */
+    --footer_d:block;
+    }
+    *{
+    color:var(--text_color);
+    }
+    .chakra-ui-light {
+    background-image: url("https://www.dmoe.cc/random.php")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    }
+    .root-box{
+    margin-top: var(--main_t_p_M);
+    margin-bottom: var(--main_t_p_M) ;
+    }
+    .header,.chakra-breadcrumb,.main-box{
+    backdrop-filter:var(--blur);
+    margin:0 0 0 0!important;
+    padding-left:var(--padding_l_r);
+    padding-right: var(--padding_l_r);
+    background: var(--title_bg);
+    }
+    .header{
+    border-radius:var(--radius) var(--radius) 0px 0px ;
+    }
+    .main-box{
+    border-radius: 0pc 0px var(--radius) var(--radius);
+    }
+    .main-box{
+    background: var(--main_bg);
+    }
+    .readme-box{
+    margin: 8px 0px;
+    padding:var(--padding_l_r);
+    backdrop-filter: var(--blur);
+    background: var(--main_bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    }
+    .footer{
+    margin-top: 1em;
+    padding-left: var(--padding_l_r);
+    padding-right: var(--padding_l_r);
+    backdrop-filter: var(--blur);
+    background: var(--main_bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: var(--footer_d);
+    }
+```
+
 :::tip
 如果你有好看的样式想要分享出来，可以点击下方的[Edit this page](https://github.com/Xhofe/alist-doc/edit/main/docs/style.md)发起pr将你的样式添加到本页面。
 :::
