@@ -14,3 +14,7 @@ sidebar_position: 3
 单独的文件类型只走代理
 ### ocr api
 用于识别验证码
+### Aria2 RPC url
+Aria2 RPC 地址，用于调用Aria2下载，支持Motrix
+### Aria2 RPC secret
+Aria2 RPC token，Aria2 rpc 设置的密码，可为空
