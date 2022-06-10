@@ -18,6 +18,7 @@ sidebar_position: 10
 > - 二进制手动安装：在程序所在目录执行：`./alist -password` （其中的alist指二进制文件名）
 > - Docker：使用命令`docker exec -it alist ./alist -password` 查看密码
 > - PaaS: 对应仓库查找查看密码的方法
+
 ### 账号复制粘贴出错
 clipboard API 需要 https,并且Firefox并不完整支持它，在Firefox上该功能无法正常使用。
 建议使用Microsoft Edge（版本79及以上）
@@ -35,7 +36,7 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 ### Onedrive: The property xx is not supported for OrderBy?
 在 OneDrive for Business 和 SharePoint Server 2016 中，orderby 查询字符串仅支持 name 和 url。
 ### 关于浏览器支持度
-请自行搜索：`vite`,`chakra-ui`,`react`等[`alist-web`所使用到的依赖](https://github.com/alist-org/alist-web/blob/v2/package.json)的浏览器的支持度，本程序浏览器支持度由上层依赖决定。
+请自行搜索：`vite`,`chakra-ui`,`react`等[`alist-web` 所使用到的依赖](https://github.com/alist-org/alist-web/blob/v2/package.json)的浏览器的支持度，本程序浏览器支持度由上层依赖决定。
 ### 添加账号提示：`UNIQUE constraint failed: x_accounts.name`
 虚拟路径是唯一的，不能重复。
 ### 上传后台处理中？
