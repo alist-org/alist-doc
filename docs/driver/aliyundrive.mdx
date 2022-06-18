@@ -27,3 +27,9 @@ import AliToken from '/src/components/AliToken'
 
 ### 限制
 如果你的服务器与阿里云盘的服务器通信困难，可选择填小一点，否则默认不填就好
+
+### 电脑浏览器获取refresh_token
+Firefox:登录阿里云网页版，F12调出控制台后点Storage，左侧点击Local Storage中的网页，右侧可以找到refresh_token，右键复制。  
+Chrome:参考https://199188.xyz/2022/03/09/How_to_get_AliyunDrive_Refresh_Token.html   
+file_id必须和refresh_token在同一次登录中获取，否则会失败。  
+
