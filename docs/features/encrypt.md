@@ -17,3 +17,12 @@ sidebar_position: 2
 - https://alist.nn.ci/a/b -> `/a/b`
 
 正确填写路径之后，填写密码字段即可。
+
+
+
+<details>
+  <summary>文档看不懂看视频</summary>
+  <div>
+    <video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=724873407&bvid=BV15S4y1U7AK&cid=549586831" width="100%" />
+  </div>
+</details>

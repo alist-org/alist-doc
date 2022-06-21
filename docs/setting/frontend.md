@@ -20,7 +20,9 @@ sidebar_position: 2
 播放音乐的时候没有缩略图显示的封面
 ### 站点备案
 如果是备案的站点，可以填写备案号
-### home readme url
+### announcement
+右上角弹窗公告(**This is a test announcement.**)可以自行修改
+### global readme url
 当有多个账号时，首页显示的readme的url，可以使用某个账号中的readme，操作如下：
 - 复制某个账号内的markdown文件直链
 - 将直链中的`/d`改为`/p`，如演示站中的：https://alist.xhofe.top/p/本地存储/README.md

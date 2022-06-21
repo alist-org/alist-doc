@@ -4,7 +4,9 @@ sidebar_position: 9
 
 # 反向代理
 程序默认监听5244端口
+
 ### nginx
+
 在网站的配置文件的server字段中加入
 ```nginx
 location / {
@@ -27,6 +29,7 @@ location / {
 :::
 
 ### Apache
+
 在VirtualHost字段下加入反代配置项ProxyPass，比如：
 ```xml
 <VirtualHost *:80>
@@ -40,9 +43,14 @@ location / {
 ```
 
 ### Caddy
+
 在Caddyfile文件下加入反代配置项reverse_proxy，比如：
 ```xml
 :80 {
     reverse_proxy 127.0.0.1:5244
 }
 ```
+
+## 宝塔设置反向代理简单示范
+
+![BT反向代理设置](/img/driver/alist/BT-Proxy.png)

@@ -4,11 +4,17 @@ sidebar_position: 1
 
 # 基本配置
 所有账号的通用项
+
 ### 虚拟路径
+
 必填，唯一标识符，即你要挂载到的位置，如果你要挂载到根目录，即为`/`
+
 ### index（索引）
+
 当有多个账号时，用于排序，越小越靠前
+
 ### proxy（代理相关）
+
 一个有三个相关选项：
 - proxy：网页端和直链走不走中转
 - webdav_proxy：webdav文件下载走不走中转
@@ -31,6 +37,7 @@ sidebar_position: 1
 不填此字段开启代理时，默认使用本机进行中转。提供两种代理方法：
 
 #### cloudflare workers
+
 可以使用`cloudflare workers`进行代理，此处填写`cloudflare workers`地址即可。
 workers代码可以在https://github.com/alist-org/alist-proxy/blob/main/alist-proxy.js 找到。其中：
 
@@ -38,6 +45,7 @@ workers代码可以在https://github.com/alist-org/alist-proxy/blob/main/alist-p
 - TOKEN：参见[Alist](./alist.md#token)部分的Token。
 
 #### 通用二进制
+
 你也可以使用另外一台机器进行代理，在https://github.com/alist-org/alist-proxy/releases 下载程序
 
 `./alist-proxy -help`查看使用方法。
@@ -57,5 +65,6 @@ const sign = md5(`alist-${TOKEN}-${name}`).slice(8, 24)
 同down_proxy_url，请求API使用的代理，专门为GoogleDrive和PikPak等国内无法直接访问的存储准备。
 
 ### extract_folder
+
 - front: 排序时将文件夹全部放到最前面
 - back: 排序时将文件夹全部放到最后面
