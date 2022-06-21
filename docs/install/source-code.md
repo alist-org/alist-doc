@@ -11,7 +11,7 @@ sidebar_position: 7
 :::
 
 ### 环境准备
-首先需要有`git`、`nodejs`、`yarn`、`golang>=1.17`, `gcc`的环境
+首先需要有`git`、`nodejs`、`yarn`、`golang>=1.18`, `gcc`的环境
 
 ### 构建前端
 clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn && yarn build`，得到dist目录下的目标文件

@@ -26,8 +26,36 @@ chmod +x alist-xxxx
     直接解压获取到的 zip 压缩包，启动 alist-xxxx.exe 即可。
   </div>
 </details>
-
 当看到输出`start server @ 0.0.0.0:5244`且之后没有报错后，就表示运行成功了，首次运行会输出初始密码，程序默认监听5244端口，现在打开`http://ip:5244`就可以看见登陆页面了，webdav相关请看[WebDav](../webdav.md)。
+
+
+
+Windows如果不想使用黑窗口模式运行可以使用如下`.vbs`脚本启动：
+
+**启动.vbs**
+
+```shell
+Set ws = CreateObject("Wscript.Shell")  
+ws.run "alist-windows-4.0-amd64.exe",vbhide
+```
+
+**停止.vbs**
+
+```shell
+Dim Wsh
+Set Wsh = WScript.CreateObject("WScript.Shell")
+Wsh.Run "taskkill /f /im alist-windows-4.0-amd64.exe",0
+Set Wsh=NoThing
+WScript.quit
+```
+
+`alist-windows-4.0-amd64.exe`是你Alist程序的文件名,如果没改默认就是这个,放到和Alist启动程序同级目录即可
+
+![WindowsShell](/img/driver/alist/WindowsShell.png)
+
+
+
+
 
 ### 守护进程
 `vim /etc/systemd/system/alist.service`添加以下内容，其中path_alist为alist所在的路径
