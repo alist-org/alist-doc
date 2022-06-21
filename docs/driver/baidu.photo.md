@@ -11,13 +11,9 @@ sidebar_position: 30
 上传只允许上传到**相册**
 :::
 
-
-
 ### 刷新令牌（同百度网盘的一样）
 
 [点此](https://openapi.baidu.com/oauth/2.0/authorize?response_type=code&client_id=iYCeC9g08h5vuP9UqvPHKKSVrKFXGa1v&redirect_uri=https://tool.nn.ci/baidu/callback&scope=basic,netdisk&qrcode=1)获取刷新令牌。
-
-
 
 ### album_id
 
@@ -34,8 +30,6 @@ sidebar_position: 30
   - 进入界面后`Ctrl+F`搜索上面的ID,在下面数几行就可以看到对应的 {tid} 
 
 ![1](/img/driver/baidu.photo/tid.png)
-
-
 
 ### 填写示例
 
