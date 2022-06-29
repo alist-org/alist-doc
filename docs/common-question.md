@@ -95,7 +95,7 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 ```
 
 
-### TLS handshake timeout? / read: connection reset by peer? / dns lookup failed? / connect: connection refused?
+### TLS handshake timeout? / read: connection reset by peer? / dns lookup failed? / connect: connection refused / context deadline exceeded (Client.Timeout exceeded while awaiting headers)?
 
 诸如此类的网络问题，请自行排查解决。
 
