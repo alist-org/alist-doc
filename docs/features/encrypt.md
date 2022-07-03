@@ -24,5 +24,9 @@ sidebar_position: 2
   <summary>文档看不懂看视频</summary>
   <div>
     <video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=724873407&bvid=BV15S4y1U7AK&cid=549586831" width="100%" />
+      <p><a href="https://www.bilibili.com/video/BV15S4y1U7AK" target="_blank" class="default-entry"><span>https://www.bilibili.com/video/BV15S4y1U7AK</span></a></p>
   </div>
 </details>
+
+[**https://www.bilibili.com/video/BV15S4y1U7AK**](https://www.bilibili.com/video/BV15S4y1U7AK)
+

@@ -2,7 +2,8 @@
 sidebar_position: 10
 ---
 
-# Alist添加使用时常见问题
+# Alist常见问题
+
 
 
 ### 添加天翼云盘时：设备ID不存在，需要二次设备校验
@@ -93,6 +94,26 @@ docker更新请参考：https://store.heytapimage.com/cdo-portal/feedback/202112
 ### TLS handshake timeout? / read: connection reset by peer? / dns lookup failed? / connect: connection refused?
 
 诸如此类的网络问题，请自行排查解决。
+
+### 搜索相关问题
+
+**2022年6月23日  v2.6.1 版本**
+
+1.  搜索目前处于实验室功能，【不推荐】使用
+2.  开启方式  **Alist后台 →  设置 →  后端 →  enable search开关打开**
+3.  搜索快捷键 【Ctrl + K】，需要先去后台开启按钮，开启方式参考第二条
+4.  开启后搜索不到东西,因为需要缓存才可以搜索,需要你先去浏览一圈文件才能搜索到
+5.  会搜索出来你  **加密、隐藏** 等未公开的文件，请看第一条
+6.  已经修改了文件/文件夹名称 还是能搜索出来，点过去无效，缓存问题 ~ 请看第一条
+7.  什么时候正式版上线，未知敬请期待...
+
+### Windows(xp,w7,w8)等,Windows10以下的系统密码不对,显示乱码
+
+低版本Windows（win10以下）不适配，密码为 **4m和←** 之间的八个字符。比如下图
+
+![WindowsPassword](/img/driver/alist/WindowsPassword.png)
+
+
 
 :::tip
 如果阅读文档之后，还未解决你的问题，请优先[在Discussions中提问/讨论](https://github.com/Xhofe/alist/discussions)或[提issue](https://github.com/Xhofe/alist/issues/new/choose)。
