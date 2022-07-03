@@ -13,11 +13,11 @@ sidebar_position: 7
 ### 环境准备
 首先需要有`git`、`nodejs`、`yarn`、`golang>=1.18`, `gcc`的环境
 
-### 构建前端
-clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn && yarn build`，得到dist目录下的目标文件
+### 拉取并构建前端
+git clone https://github.com/Xhofe/alist-web 这个项目，执行`yarn && yarn build`，得到dist目录下的目标文件
 
-### 构建后端
-clone https://github.com/Xhofe/alist 这个项目,将上一步dist目录下的文件全部拷贝至项目下的public目录，然后：
+### 拉取并构建后端
+git clone -b v2 https://github.com/alist-org/alist 这个项目,将上一步dist目录下的文件全部拷贝至项目下的public目录，然后：
 ```bash
 appName="alist"
 builtAt="$(date +'%F %T %z')"

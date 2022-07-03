@@ -8,22 +8,6 @@ sidebar_position: 24
 
 
 
-## 推荐你看这个视频来了解如何添加：
-
-<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=511500007&bvid=BV1yu411z7ZF&cid=721651025" width="100%" />
-**https://www.bilibili.com/video/BV1yu411z7ZF/**
-
-
-
-
-
-## 纯享版-一镜到底：
-
-<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=554110193&bvid=BV18v4y1N7AY&cid=721662144" width="100%" />
-**https://www.bilibili.com/video/BV18v4y1N7AY/**
-
-
-
 ## 下载报错临时解决方案
 
 > **访问xxxxxx-aliyun04-vip-lixian.xunlei.com的请求遭到拒绝**
@@ -37,6 +21,22 @@ sidebar_position: 24
 2. 或者后台设置ua为   **AndroidDownloadManager/11 (Linux; U; Android 11; M2004J7AC)** Alist添加账号里面开启代理,需要重启alist(链接限速)
 
   **以上两个选项就是这个问题的临时解决方法**
+
+
+
+## 推荐你看这个视频来了解如何添加：
+
+<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=511500007&bvid=BV1yu411z7ZF&cid=721651025" width="100%" />
+**https://www.bilibili.com/video/BV1yu411z7ZF/**
+
+
+
+
+
+## 纯享版-一镜到底：
+
+<video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=554110193&bvid=BV18v4y1N7AY&cid=721662144" width="100%" />
+**https://www.bilibili.com/video/BV18v4y1N7AY/**
 
 
 

@@ -20,6 +20,34 @@ chmod +x alist-xxxx
 ```
 *其中的xxxx是指不同系统/架构对应的名称，一般Linux-x86/64是alist-linux-amd64，如果你的glibc版本过低，建议下载musl版本*
 
+### 守护进程
+`vim /etc/systemd/system/alist.service`添加以下内容，其中path_alist为alist所在的路径
+```ini
+[Unit]
+Description=alist
+After=network.target
+ 
+[Service]
+Type=simple
+WorkingDirectory=path_alist
+ExecStart=path_alist/alist-xxxx -conf data/config.json
+Restart=on-failure
+ 
+[Install]
+WantedBy=multi-user.target
+```
+然后`systemctl daemon-reload`，现在你就可以使用这些命令来管理程序了：
+- 启动: `systemctl start alist`
+- 关闭: `systemctl stop alist`
+- 自启: `systemctl enable alist`
+- 状态: `systemctl status alist`
+- 重启: `systemctl restart alist`
+
+
+
+----
+
+
 <details>
   <summary>Windows</summary>
   <div>
@@ -55,27 +83,15 @@ WScript.quit
 
 
 
+<details>
+  <summary>Windows的使用文档看不懂可以看视频,4分28秒开始</summary>
+  <div>
+    <video controls src="https://video-direct-link.vercel.app/bili.mp4?aid=427916745&bvid=BV1DG411s7j5&cid=760544575" width="100%" />
+      <p><a href="https://www.bilibili.com/video/BV15S4y1U7AK" target="_blank" class="default-entry"><span>https://www.bilibili.com/video/BV1DG411s7j5?t=268.1</span></a></p>
+  </div>
+</details>
+
+**https://www.bilibili.com/video/BV1DG411s7j5?t=268.1**
 
 
-### 守护进程
-`vim /etc/systemd/system/alist.service`添加以下内容，其中path_alist为alist所在的路径
-```ini
-[Unit]
-Description=alist
-After=network.target
- 
-[Service]
-Type=simple
-WorkingDirectory=path_alist
-ExecStart=path_alist/alist-xxxx -conf data/config.json
-Restart=on-failure
- 
-[Install]
-WantedBy=multi-user.target
-```
-然后`systemctl daemon-reload`，现在你就可以使用这些命令来管理程序了：
-- 启动: `systemctl start alist`
-- 关闭: `systemctl stop alist`
-- 自启: `systemctl enable alist`
-- 状态: `systemctl status alist`
-- 重启: `systemctl restart alist`
+

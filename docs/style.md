@@ -131,6 +131,64 @@ sidebar_position: 20
 <div id="bg">
 ```
 
+
+
+# 自动渐变背景
+
+```html
+<!--放在自定义头部-->
+
+<style>
+/*渐变背景CSS */
+#canvas-basic {
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -999;
+}
+</style>
+
+
+<!--放在自定义body-->
+
+<!-- 渐变背景初始化 -->
+<canvas id="canvas-basic"></canvas> 
+<script src="https://npm.elemecdn.com/granim@2.0.0/dist/granim.min.js"></script>
+<script>
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#a18cd1', '#fbc2eb'],
+                 ['#fff1eb', '#ace0f9'],
+                 ['#d4fc79', '#96e6a1'],
+                 ['#a1c4fd', '#c2e9fb'],
+                 ['#a8edea', '#fed6e3'],
+                 ['#9890e3', '#b1f4cf'],
+                 ['#a1c4fd', '#c2e9fb'],
+                 ['#fff1eb', '#ace0f9']
+           
+            ]
+        }
+    }
+});
+</script>
+```
+
+
+
+
+
+
+
 :::tip
 如果你有好看的样式想要分享出来，可以点击下方的[Edit this page](https://github.com/Xhofe/alist-doc/edit/main/docs/style.md)发起pr将你的样式添加到本页面。
 :::
