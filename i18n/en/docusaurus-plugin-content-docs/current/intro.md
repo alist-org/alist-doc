@@ -49,7 +49,8 @@ Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) 
 ![Demo](https://store.heytapimage.com/cdo-portal/feedback/202112/02/14803f03878e0c6cc863bae95bc2ae0c.png)
 
 ### Special sponsors
-<https://zhaoziyuan.la/>
+- [找资源 - 阿里云盘资源搜索引擎](https://zhaoziyuan.la/)
+- [KinhDown 百度云盘不限速下载！永久免费！以稳定运行3年！非常可靠!](https://kinhdown.com/?Type=Tutorials)
 
 ### License
 
