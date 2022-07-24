@@ -8,7 +8,7 @@ sidebar_position: 24
 
 
 
-## 下载报错临时解决方案
+## 下载报错临时解决方案(随时失效,失效后就无法了暂时)
 
 > **访问xxxxxx-aliyun04-vip-lixian.xunlei.com的请求遭到拒绝**
 >
