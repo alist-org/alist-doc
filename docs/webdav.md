@@ -53,19 +53,19 @@ sidebar_position: 8
 
 - ### PC - PotPlayer
 
-  - ![1](/img/driver/webdav/PotPlayer-1.png)
+  - ![1](/img/webdav/PotPlayer-1.png)
 
 - ### PC - RaiDrive
 
-  - ![1](/img/driver/webdav/RaiDrive-1.png)
+  - ![1](/img/webdav/RaiDrive-1.png)
 
 - ### APK / IOS / TV - nplayer
 
-  - ![1](/img/driver/webdav/nplayer-1.jpg)
+  - ![1](/img/webdav/nplayer-1.jpg)
 
 - ### APK / TV / IOS?(不晓得) - Kodi
 
-  - ![1](/img/driver/webdav/Kodi-1.png)
+  - ![1](/img/webdav/Kodi-1.png)
 
 
 
