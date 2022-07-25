@@ -40,3 +40,32 @@ sidebar_position: 8
 | 百度网盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
 | 夸克网盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
 | 迅雷网盘    |  ✅  |  ✅  |     ✅     |   ✅   |  ✅  |  ✅  |  ✅  |
+
+
+
+
+
+
+
+# 常见的WebDav挂载方式示意图
+
+好多用户都想挂载却又不知道怎么挂载...
+
+- ### PC - PotPlayer
+
+  - ![1](/img/webdav/PotPlayer-1.png)
+
+- ### PC - RaiDrive
+
+  - ![1](/img/webdav/RaiDrive-1.png)
+
+- ### APK / IOS / TV - nplayer
+
+  - ![1](/img/webdav/nplayer-1.jpg)
+
+- ### APK / TV / IOS?(不晓得) - Kodi
+
+  - ![1](/img/webdav/Kodi-1.png)
+
+
+
