@@ -50,7 +50,7 @@ sidebar_position: 1
 
 ### 特别赞助
 - [找资源 - 阿里云盘资源搜索引擎](https://zhaoziyuan.la/)
-- [KinhDown 百度云盘不限速下载！永久免费！以稳定运行3年！非常可靠!](https://kinhdown.com/?Type=Tutorials)
+- [KinhDown 百度云盘不限速下载！永久免费！已稳定运行3年！非常可靠!](https://kinhdown.com/?Type=Tutorials)
 
 ### License
 
