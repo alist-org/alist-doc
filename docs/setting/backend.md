@@ -24,3 +24,24 @@ Aria2 RPC 地址，用于调用Aria2下载，支持Motrix
 
 ### Aria2 RPC secret
 Aria2 RPC token，Aria2 rpc 设置的密码，可为空
+
+### Casdoor登录
+启用后，可以通过Casdoor的方式进行单点登录
+
+### Casdoor组织名称
+Casdoor组织的名称，用于配置Casdoor的认证
+
+### Casdoor应用名称
+Casdoor应用程序名称，用于配置Casdoor的认证
+
+### Casdoor服务URL
+Casdoor的服务URL，例如：`https://door.casdoor.com` 或者 `http://localhost:8000`
+
+### Casdoor Client ID
+Casdoor应用程序的客户端 ID
+
+### Casdoor Client Secret
+Casdoor应用程序的客户端密钥
+
+### Casdoor Jwt Public Key
+Casdoor应用程序证书的公钥
