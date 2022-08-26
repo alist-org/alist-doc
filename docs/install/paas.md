@@ -23,5 +23,7 @@ Easy to use but easy to violate ToS too.
 - https://github.com/alist-org/alist-heroku-postgres (recommend)
 - https://github.com/alist-org/alist-heroku
 
+Starting November 28th, 2022, free Heroku plan will no longer be available.
+
 ### Repl.it
-- https://github.com/alist-org/alist-replit
+https://github.com/alist-org/alist-replit
