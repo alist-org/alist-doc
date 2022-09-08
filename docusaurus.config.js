@@ -16,7 +16,7 @@ const config = {
       src: "//sdk.51.la/js-sdk-pro.min.js?id=JeJvFd1C4zJrym9w&ck=JeJvFd1C4zJrym9w",
       async: true,
       id: "LA_COLLECT",
-    }
+    },
   ],
   tagline: "A file list program that supports multiple storage.",
   url: "https://alist-doc.nn.ci",
@@ -53,6 +53,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "support_us",
+        content:
+          'New version available: <a target="_blank" href="https://alist.nn.ci">AList V3</a>',
+        backgroundColor: "#bff3e7",
+        textColor: "#091E42",
+        isCloseable: true,
+      },
       navbar: {
         title: "Alist Doc",
         logo: {
