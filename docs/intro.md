@@ -4,6 +4,14 @@ sidebar_position: 1
 
 # 简介
 
+:::info
+此文档仅适用于AList V2版本。
+:::
+
+:::danger
+新版本(V3及以后)与V2不兼容，且V2不在维护。
+:::
+
 [![](https://img.shields.io/github/release/Xhofe/alist?style=flat-square)](https://github.com/Xhofe/alist/releases/latest)
 [![GitHub Discussions](https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936&style=flat-square)](https://github.com/Xhofe/alist/discussions)
 [![](https://img.shields.io/github/workflow/status/Xhofe/alist/build?style=flat-square)](https://github.com/Xhofe/alist/actions?query=workflow%3ABuild)

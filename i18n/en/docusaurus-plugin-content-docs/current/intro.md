@@ -4,6 +4,14 @@ sidebar_position: 1
 
 # Introduction
 
+:::info
+This document is only for AList Version 2.
+:::
+
+:::danger
+New versions (V3 and later) are not compatible with V2, and V2 is not maintained.
+:::
+
 [![](https://img.shields.io/github/release/Xhofe/alist?style=flat-square)](https://github.com/Xhofe/alist/releases/latest)
 [![GitHub Discussions](https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936&style=flat-square)](https://github.com/Xhofe/alist/discussions)
 [![](https://img.shields.io/github/workflow/status/Xhofe/alist/build?style=flat-square)](https://github.com/Xhofe/alist/actions?query=workflow%3ABuild)
