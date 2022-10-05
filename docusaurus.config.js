@@ -115,8 +115,8 @@ const config = {
                 href: "https://t.me/alist_chat",
               },
               {
-                label: "QQ Group",
-                href: "https://jq.qq.com/?_wv=1027&k=YJJj2Gwb",
+                label: "Discord",
+                href: "https://discord.gg/F4ymsH4xv2",
               },
             ],
           },
