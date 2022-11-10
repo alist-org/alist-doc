@@ -9,7 +9,7 @@ sidebar_position: 1
 :::
 
 :::danger
-新版本(V3及以后)与V2不兼容，且V2不在维护。
+新版本(V3及以后)与V2不兼容，且V2不再维护。
 :::
 
 [![](https://img.shields.io/github/release/Xhofe/alist?style=flat-square)](https://github.com/Xhofe/alist/releases/latest)
