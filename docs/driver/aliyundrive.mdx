@@ -25,3 +25,14 @@ sidebar_position: 3
 
 ### 限制
 如果你的服务器与阿里云盘的服务器通信困难，可选择填小一点，否则默认不填就好
+
+### 使用Rclone挂载alist代理下的阿里云盘无法下载文件问题解决方法
+由于阿里云盘加入了防盗链机制,Rclone挂载到本地磁盘后可能无法正常工作,如果打开Rclone的日志可能看到
+
+`<Message>You are denied by bucket referer policy.</Message>`
+
+`2022/11/12 15:30:43 ERROR : IO error: 403 Forbidden`
+
+尝试解决策略:更改Alist配置
+
+存储->阿里云盘->编辑->WebDAV 策略*->由302重定向改为本地代理。
