@@ -40,6 +40,15 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <div className="container" style={{ marginTop: 14 }}>
+          <div
+            className="wwads wwads-cn wwads-horizontal"
+            data-id="219"
+            style={{
+              width: "100% !important",
+            }}
+          ></div>
+        </div>
         <HomepageFeatures />
       </main>
     </Layout>

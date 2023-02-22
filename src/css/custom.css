@@ -23,6 +23,21 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.wwads-cn,
+.wwads {
+  background-color: #f4f8fa;
+}
+.wwads-text {
+  color: #0e1011;
+}
+html[data-theme="dark"] .wwads-cn,
+html[data-theme="dark"] .wwads {
+  background-color: #272829 !important;
+}
+html[data-theme="dark"] .wwads-text {
+  color: #9e9e9e !important;
 }

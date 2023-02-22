@@ -9,6 +9,15 @@ const config = {
   title: "Alist Document",
   scripts: [
     {
+      src: "https://cdn.wwads.cn/js/makemoney.js",
+      type: "text/javascript",
+      charset: "UTF-8",
+    },
+    {
+      src: "https://alist.nn.ci/adb.js",
+      async: true,
+    },
+    {
       src: "https://hm.baidu.com/hm.js?0d5809a3ff8af1329f415ca8088cc2a0",
       async: true,
     },
