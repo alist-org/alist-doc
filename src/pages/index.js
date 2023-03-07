@@ -25,6 +25,9 @@ function HomepageHeader() {
           >
             Alist Tutorial - 2min ⏱️
           </Link>
+          <Link className="button button--lg" to="https://mbd.pub/o/bread/ZJaTl5xy">
+            Desktop
+          </Link>
         </div>
       </div>
     </header>
