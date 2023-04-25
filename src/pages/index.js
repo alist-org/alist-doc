@@ -25,7 +25,10 @@ function HomepageHeader() {
           >
             Alist Tutorial - 2min ⏱️
           </Link>
-          <Link className="button button--lg" to="https://mbd.pub/o/bread/ZJaTl5xy">
+          <Link
+            className="button button--lg"
+            to="https://mbd.pub/o/bread/ZJaTl5xy"
+          >
             Desktop
           </Link>
         </div>
@@ -44,6 +47,40 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <div className="container" style={{ marginTop: 14 }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                maxWidth: 500,
+              }}
+            >
+              <a
+                href="https://www.mingdao.com/?s=utm_51=utm_source=liteflow&utm_medium=banner&utm_campaign=%E5%93%81%E7%89%8C%E6%8E%A8%E5%B9%BF&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1"
+                target="_blank"
+              >
+                <img
+                  src="/img/ads/mingdao-h.png"
+                  style={{
+                    width: "100%",
+                  }}
+                />
+              </a>
+              <div
+                style={{
+                  fontSize: "small",
+                  textAlign: "right",
+                  color: "#999",
+                }}
+              >
+                赞助商
+              </div>
+            </div>
+          </div>
           <div
             className="wwads wwads-cn wwads-horizontal"
             data-id="219"
