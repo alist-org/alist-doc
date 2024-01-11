@@ -37,12 +37,13 @@ PDF.js v2.12.305 (build: d3e1d7090)
 
 ### 密码忘了怎么办？
 
-命令行 ./alist-xxxx password查看。(其中的xxxx是指不同系统/架构对应的名称，一般Linux-x86/64是alist-linux-amd64，若使用脚本安装，则名称直接为alist)
-> 具体对应到安装方式：
-> - 脚本安装：安装时会输出初始密码，再次获取：`cd /opt/alist && ./alist password`
-> - 二进制手动安装：在程序所在目录执行：`./alist password` （其中的alist指二进制文件名）
-> - Docker：使用命令`docker exec -it alist ./alist password` 查看密码
-> - PaaS: 对应仓库查找查看密码的方法
+执行命令重置密码：
+
+```shell
+./alist-xxxx admin set NEW_PASSWORD
+```
+
+其中的 `xxxx` 是指不同系统 / 架构对应的名称，一般 Linux-x86/64 是 alist-linux-amd64，若使用脚本安装，则名称直接为 alist
 
 ### 账号复制粘贴出错
 
